@@ -1,0 +1,73 @@
+# DukeCon conference configuration for Java Forum Stuttgart (JFS) - please leave them in chronological order
+-
+  id: jfs2016
+  internalId: 496615
+  conference: jfs
+  year: 2016
+  talksUri: jfs-2016-final-finished-conf.raw.json
+  url: https://jfs.dukecon.org/2016
+  homeUrl: http://www.java-forum-stuttgart.de
+# TODO
+  imprint:
+    de: https://www.java-forum-stuttgart.de/de/Impressum.html
+# german version only 2017-05-27
+    en: https://www.java-forum-stuttgart.de/de/Impressum.html
+#  termsOfUse:
+# missing links
+#    de: https://www.java-forum-stuttgart.de
+#    en: https://www.java-forum-stuttgart.de
+#  privacy:
+# missing links
+#    de: https://www.java-forum-stuttgart.de
+#    en: https://www.java-forum-stuttgart.de
+  name: Java Forum Stuttgart 2016
+  startDate: 2016-07-07
+  endDate: 2016-07-07
+  authEnabled: false
+  extractorClass: org.dukecon.server.repositories.doag.DoagDataExtractor
+  rawDataMapperClass: org.dukecon.server.repositories.doag.DoagJsonMapper
+  styles:
+    dark: '#ffb300'
+    darkLink: '#dd8800'
+    hover: '#ffdb80'
+    hoverLink: '#ffb300'
+    reverse: '#ffe'
+    highlight: '#ffdb80'
+    alternate: '#bf5a00'
+-
+  id: jfs2017
+  internalId: 506707
+  conference: jfs
+  year: 2017
+  talksUri:
+    eventsData: jfs-2017-formes-dump.csv
+    speakersData: jfs-2017-speaker-formes-dump.csv
+  url: https://jfs.dukecon.org/2017
+  homeUrl: http://www.java-forum-stuttgart.de
+# TODO
+  imprint:
+    de: https://www.java-forum-stuttgart.de/de/Impressum.html
+# german version only 2017-05-27
+    en: https://www.java-forum-stuttgart.de/de/Impressum.html
+#  termsOfUse:
+# missing links
+#    de: https://www.java-forum-stuttgart.de
+#    en: https://www.java-forum-stuttgart.de
+#  privacy:
+# missing links
+#    de: https://www.java-forum-stuttgart.de
+#    en: https://www.java-forum-stuttgart.de
+  name: Java Forum Stuttgart 2017
+  startDate: 2017-07-06
+  endDate: 2017-07-06
+  authEnabled: false
+  extractorClass: org.dukecon.server.repositories.doag.DoagDataExtractor
+  rawDataMapperClass: org.dukecon.server.repositories.doag.DoagCsvMapper
+  styles:
+    dark: '#ffb300'
+    darkLink: '#dd8800'
+    hover: '#ffdb80'
+    hoverLink: '#ffb300'
+    reverse: '#ffe'
+    highlight: '#ffdb80'
+    alternate: '#bf5a00'
