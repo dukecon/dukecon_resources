@@ -171,7 +171,7 @@
 
     <profiles>
         <profile>
-            <id>dukecon-install-to-testing-docker</id>
+            <id>install-testing-docker</id>
             <!--<activation>-->
                 <!--<property>-->
                     <!--<name>env.HOSTNAME</name>-->
