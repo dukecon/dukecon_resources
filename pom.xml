@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.dukecon</groupId>
-	<artifactId>dukecon-resources</artifactId>
-	<version>1.0-SNAPSHOT</version>
-	<packaging>jar</packaging>
+    <groupId>org.dukecon</groupId>
+    <artifactId>dukecon-resources</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <developers>
         <developer>
@@ -34,8 +35,8 @@
         <url>https://github.com/dukecon/dukecon_server.git</url>
         <connection>scm:git:git@github.com:dukecon/dukecon_resources.git</connection>
     </scm>
-	<name>DukeCon Resources</name>
-	<description>Resources (conference.yml etc.) for DukeCon</description>
+    <name>DukeCon Resources</name>
+    <description>Resources (conference.yml etc.) for DukeCon</description>
     <licenses>
         <license>
             <name>MIT License</name>
@@ -45,12 +46,12 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <!-- Set this to localhost if you would like to test upload server -->
         <nexus.repository.prot>https</nexus.repository.prot>
         <nexus.repository.host>dev.dukecon.org</nexus.repository.host>
-        <nexus.repository.port />
+        <nexus.repository.port/>
         <nexus.repository.base>/nexus</nexus.repository.base>
 
         <!-- Plugin and Dependency versions - keep them in alphabetical order -->
@@ -58,11 +59,13 @@
 
         <!-- Check automatic versions from time to time! -->
     </properties>
-    
+
     <repositories>
         <repository>
             <id>dukecon</id>
-            <url>${nexus.repository.prot}://${nexus.repository.host}${nexus.repository.port}${nexus.repository.base}/content/groups/public/</url>
+            <url>
+                ${nexus.repository.prot}://${nexus.repository.host}${nexus.repository.port}${nexus.repository.base}/content/groups/public/
+            </url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -71,11 +74,13 @@
             </snapshots>
         </repository>
     </repositories>
-    
+
     <pluginRepositories>
         <pluginRepository>
             <id>dukecon</id>
-            <url>http://${nexus.repository.host}${nexus.repository.port}${nexus.repository.base}/content/groups/public/</url>
+            <url>
+                http://${nexus.repository.host}${nexus.repository.port}${nexus.repository.base}/content/groups/public/
+            </url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -89,17 +94,23 @@
         <snapshotRepository>
             <id>dukecon-snapshots</id>
             <name>DukeCon Snapshots</name>
-            <url>http://${nexus.repository.host}${nexus.repository.port}${nexus.repository.base}/content/repositories/snapshots</url>
+            <url>
+                http://${nexus.repository.host}${nexus.repository.port}${nexus.repository.base}/content/repositories/snapshots
+            </url>
         </snapshotRepository>
         <repository>
             <id>dukecon-releases</id>
             <name>DukeCon Snapshots</name>
-            <url>http://${nexus.repository.host}${nexus.repository.port}${nexus.repository.base}/content/repositories/releases</url>
+            <url>
+                http://${nexus.repository.host}${nexus.repository.port}${nexus.repository.base}/content/repositories/releases
+            </url>
         </repository>
         <site>
             <id>dukecon-site</id>
             <name>DukeCon Site</name>
-            <url>dav:http://${nexus.repository.host}${nexus.repository.port}${nexus.repository.base}/content/repositories/site/${project.groupId}/${project.artifactId}/${project.version}</url>
+            <url>
+                dav:http://${nexus.repository.host}${nexus.repository.port}${nexus.repository.base}/content/repositories/site/${project.groupId}/${project.artifactId}/${project.version}
+            </url>
         </site>
     </distributionManagement>
 
@@ -109,11 +120,19 @@
     </issueManagement>
 
     <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.zcore.maven</groupId>
+                    <artifactId>merge-maven-plugin</artifactId>
+                    <version>${merge-maven-plugin.version}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.zcore.maven</groupId>
                 <artifactId>merge-maven-plugin</artifactId>
-                <version>${merge-maven-plugin.version}</version>
                 <executions>
                     <execution>
                         <id>merge</id>
