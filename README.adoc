@@ -1,0 +1,77 @@
+= DukeCon Resources
+
+This project contains DukeCon (configuration) resources, in particular `conferences.yml` (or the fragments which are
+combined to a suitable DukeCon conference configuration).
+
+NOTE: In the future this project might be extended by more DukeCon configuration and resource items!
+
+== Motivation
+
+The project contributes to the widespread single source principle of IT artifacts management. It should be possible
+to
+
+* create new artifacts out of the existing ones,
+* directly install the given or the composed artifacts to target systems,
+* deploy the artifacts into suitable repositories (e.g., Maven oder Docker) for later use.
+
+== Contents
+
+Currently the project only contains misc. fragments of DukeCon `conference.yml` configuration files, e.g.,
+
+[source,yaml]
+.DukeCon JavaLand conference configuration
+----
+include::src/main/resources/conferences-javaland.yml[lines=1..15]
+...
+----
+
+These source fragments are stored in the link:src/main/resources[] folder of the project.
+
+== Usage
+
+All actions can be performed by the included Maven Wrapper (`mvnw` or `mvnw.cmd` on Windows).
+
+=== Composition
+
+The sources are composed to new artifacts during the Maven _process-resources_ phase and will be generated to the
+link:target/classes[] folder (currently together with all source fragments):
+
+  mvnw copy-resources
+
+=== Maven Packaging and Install / Deploy
+
+The resources are packed into a Maven artifact JAR by
+
+  mvnw package
+
+which creates a `.jar` with the respective Maven project version number in the link:target[] folder.
+
+This file can be installed to the local Maven repository (`$HOME/.m2/repository`)
+
+  mvnw install
+
+or deployed to the configured Maven remote repository
+
+  mvnw deploy
+
+The latter step will be performed automatically by
+https://dev.dukecon.org/jenkins/blue/organizations/jenkins/dukecon_resources/activity[Jenkins].
+
+=== Local installation
+
+With Maven profiles allow to perform local installations, e.g.,
+
+  mvnw install -Pdukecon-install-to-testing-docker
+
+which will copy the created `conferences.yml` to `/data/dukecon/testing/server/config`
+
+Currently the following profiles with their respective targets are available
+
+[%header,cols=2*]
+.Maven Profiles and Target directories
+|===
+| Profile | Target
+| `install-latest-docker` | `/data/dukecon/latest/server/config` |
+| `install-testing-docker` | `/data/dukecon/testing/server/config` |
+|===
+
