@@ -171,13 +171,13 @@
 
     <profiles>
         <profile>
-            <id>dukecon0-testing</id>
-            <activation>
-                <property>
-                    <name>env.HOSTNAME</name>
-                    <value>dukecon0</value>
-                </property>
-            </activation>
+            <id>dukecon-install-to-testing-docker</id>
+            <!--<activation>-->
+                <!--<property>-->
+                    <!--<name>env.HOSTNAME</name>-->
+                    <!--<value>dukecon0</value>-->
+                <!--</property>-->
+            <!--</activation>-->
             <build>
                 <plugins>
                     <plugin>
