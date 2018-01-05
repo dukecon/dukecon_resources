@@ -171,13 +171,37 @@
 
     <profiles>
         <profile>
+            <id>install-latest-docker</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.zcore.maven</groupId>
+                        <artifactId>merge-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>copy to DukeCon latest</id>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>merge</goal>
+                                </goals>
+                                <configuration>
+                                    <mergers>
+                                        <merger>
+                                            <target>/data/dukecon/latest/server/config/conferences.yml</target>
+                                            <sources>
+                                                <source>${project.build.outputDirectory}/conferences.yml</source>
+                                            </sources>
+                                        </merger>
+                                    </mergers>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
             <id>install-testing-docker</id>
-            <!--<activation>-->
-                <!--<property>-->
-                    <!--<name>env.HOSTNAME</name>-->
-                    <!--<value>dukecon0</value>-->
-                <!--</property>-->
-            <!--</activation>-->
             <build>
                 <plugins>
                     <plugin>
