@@ -53,8 +53,10 @@
         <nexus.repository.port />
         <nexus.repository.base>/nexus</nexus.repository.base>
 
-        <!-- Check automatic versions from time to time! -->
+        <!-- Plugin and Dependency versions - keep them in alphabetical order -->
         <merge-maven-plugin.version>0.0.3</merge-maven-plugin.version>
+
+        <!-- Check automatic versions from time to time! -->
     </properties>
     
     <repositories>
