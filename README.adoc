@@ -71,7 +71,7 @@ Currently the following profiles with their respective targets are available
 .Maven Profiles and Target directories
 |===
 | Profile | Target
-| `install-latest-docker` | `/data/dukecon/latest/server/config` |
-| `install-testing-docker` | `/data/dukecon/testing/server/config` |
+| `install-latest-docker` | `/data/dukecon/latest/server/config`
+| `install-testing-docker` | `/data/dukecon/testing/server/config`
 |===
 
