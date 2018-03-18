@@ -61,7 +61,7 @@ https://dev.dukecon.org/jenkins/blue/organizations/jenkins/dukecon_resources/act
 
 With Maven profiles allow to perform local installations, e.g.,
 
-  mvnw install -Pdukecon-install-to-testing-docker
+  mvnw install -Pinstall-testing-docker
 
 which will copy the created `conferences.yml` to `/data/dukecon/testing/server/config`
 
