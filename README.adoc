@@ -36,9 +36,36 @@ All actions can be performed by the included Maven Wrapper (`mvnw` or `mvnw.cmd`
 The sources are composed to new artifacts during the Maven _process-resources_ phase and will be generated to the
 link:target/classes[] folder (currently together with all source fragments):
 
-  mvnw copy-resources
+  mvnw process-resources
 
-=== Maven Packaging and Install / Deploy
+==== Composed files
+
+The following file(s) is/are composed:
+
+`target/classes/conferences.yml`:: The composition of this file depends on a Maven profile. The profile can be selected
+manually or it is selected automatically depending on, e.g., the hostname of the generating host.
+
+==== Maven profiles
+
+The following profiles can be used to select the fragments which are combined to the final file(s)
+
+`generate-all-public`:: Used to generate a conferences file containing configurations for all conferences with publicly
+available data sources.
+
+`generate-ijug+doag`:: Used on hosts which provide http://ijug.eu[iJUG] conferences (i.e., https://javaland.eu) and
+http://doag.org[DOAG] conferences, i.e., DOAG/Javaland production.
+
+`generate-all-nonpublic`:: Used to generate a conferences file containing configurations for all conferences with
+publicly and non publicly available data sources (e.g. ApacheCon). The fragments of the non-public data sources then
+must be available locally to perform a valid build.
+
+`generate-apachecon`:: Generate conference configuration for ApacheCon (hint: This will only work if you have the
+non-publicly available conference configuration fragment for ApacheCon locally available.
+
+=== Maven Packaging and Install / Deploy (Deprecated)
+
+WARNING: This is currently not recommended since the contents of the generated JAR is dependant on the chosen Maven
+profile.
 
 The resources are packed into a Maven artifact JAR by
 
