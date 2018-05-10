@@ -52,15 +52,18 @@ The following profiles can be used to select the fragments which are combined to
 `generate-all-public`:: Used to generate a conferences file containing configurations for all conferences with publicly
 available data sources.
 
-`generate-ijug+doag`:: Used on hosts which provide http://ijug.eu[iJUG] conferences (i.e., https://javaland.eu) and
-http://doag.org[DOAG] conferences, i.e., DOAG/Javaland production.
+`generate-ijug+doag`:: Used on hosts which provide http://ijug.eu[iJUG] conferences (i.e., https://javaland.eu +
+https://java-forum-stuttgart.de) and http://doag.org[DOAG] conferences.
 
 `generate-all-nonpublic`:: Used to generate a conferences file containing configurations for all conferences with
 publicly and non publicly available data sources (e.g. ApacheCon). The fragments of the non-public data sources then
 must be available locally to perform a valid build.
 
-`generate-apachecon`:: Generate conference configuration for ApacheCon (hint: This will only work if you have the
-non-publicly available conference configuration fragment for ApacheCon locally available.
+`generate-doag`:: Generate conference configuration for all DOAG conferences.
+`generate-javaland`:: Generate conference configuration for all Javaland conferences.
+
+`generate-apachecon`:: Generate conference configuration for ApacheCon (_hint_: This will only work if you have the
+non-publicly available conference configuration fragment for ApacheCon present locally).
 
 === Maven Packaging and Install / Deploy (Deprecated)
 
@@ -100,5 +103,7 @@ Currently the following profiles with their respective targets are available
 | Profile | Target
 | `install-latest-docker` | `/data/dukecon/latest/server/config`
 | `install-testing-docker` | `/data/dukecon/testing/server/config`
+| `install-doag-production-docker` | `/data/dukecon/doag-production/server/config`
+| `install-javaland-production-docker` | `/data/dukecon/javaland-production/server/config`
 |===
 

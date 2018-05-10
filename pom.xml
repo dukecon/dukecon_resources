@@ -135,9 +135,6 @@
     <profiles>
         <profile>
             <id>generate-ijug+doag</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
             <build>
                 <plugins>
                     <plugin>
@@ -170,7 +167,72 @@
             </build>
         </profile>
         <profile>
+            <id>generate-javaland</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.zcore.maven</groupId>
+                        <artifactId>merge-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>merge</id>
+                                <phase>process-resources</phase>
+                                <goals>
+                                    <goal>merge</goal>
+                                </goals>
+                                <configuration>
+                                    <mergers>
+                                        <merger>
+                                            <target>${project.build.outputDirectory}/conferences.yml</target>
+                                            <sources>
+                                                <source>src/main/resources/conferences-header.yml</source>
+                                                <source>src/main/resources/conferences-javaland.yml</source>
+                                            </sources>
+                                        </merger>
+                                    </mergers>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>generate-doag</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.zcore.maven</groupId>
+                        <artifactId>merge-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>merge</id>
+                                <phase>process-resources</phase>
+                                <goals>
+                                    <goal>merge</goal>
+                                </goals>
+                                <configuration>
+                                    <mergers>
+                                        <merger>
+                                            <target>${project.build.outputDirectory}/conferences.yml</target>
+                                            <sources>
+                                                <source>src/main/resources/conferences-header.yml</source>
+                                                <source>src/main/resources/conferences-doag.yml</source>
+                                            </sources>
+                                        </merger>
+                                    </mergers>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
             <id>generate-all-public</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
             <build>
                 <plugins>
                 <plugin>
@@ -329,6 +391,66 @@
                                     <mergers>
                                         <merger>
                                             <target>/data/dukecon/testing/server/config/conferences.yml</target>
+                                            <sources>
+                                                <source>${project.build.outputDirectory}/conferences.yml</source>
+                                            </sources>
+                                        </merger>
+                                    </mergers>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>install-doag-production-docker</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.zcore.maven</groupId>
+                        <artifactId>merge-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>copy to DukeCon testing</id>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>merge</goal>
+                                </goals>
+                                <configuration>
+                                    <mergers>
+                                        <merger>
+                                            <target>/data/dukecon/doag-production/server/config/conferences.yml</target>
+                                            <sources>
+                                                <source>${project.build.outputDirectory}/conferences.yml</source>
+                                            </sources>
+                                        </merger>
+                                    </mergers>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>install-javaland-production-docker</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.zcore.maven</groupId>
+                        <artifactId>merge-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>copy to DukeCon testing</id>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>merge</goal>
+                                </goals>
+                                <configuration>
+                                    <mergers>
+                                        <merger>
+                                            <target>/data/dukecon/javaland-production/server/config/conferences.yml</target>
                                             <sources>
                                                 <source>${project.build.outputDirectory}/conferences.yml</source>
                                             </sources>
