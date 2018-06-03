@@ -142,9 +142,6 @@
     reverse: '#eee'
     highlight: '#eee'
     alternate: '#bf5a00'
-  feedbackServer:
-    active: true
-    timeSlotVisible: -1
 -
   id: doag2016
   internalId: 512089
