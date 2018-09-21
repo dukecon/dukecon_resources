@@ -334,7 +334,7 @@
     speakersData: https://www.javaland.eu/api/referenten_apex.php?key=JL-EOPTGB-DR
     additionalData: https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw
   backupUri: kua-2018-backup.raw
-  url: http://${conference}.dukecon.org/${year}
+  url: https://${conference}.dukecon.org/${year}
   homeUrl: https://2018.doag.org/
   imprint:
     de: https://2018.doag.org/de/impressum/
