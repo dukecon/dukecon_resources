@@ -1,0 +1,8 @@
+# THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT!!!
+conference: &conference
+  authEnabled: true
+  extractorClass: org.dukecon.server.repositories.doag.DoagDataExtractor
+  rawDataMapperClass: org.dukecon.server.repositories.doag.DoagJsonMapper
+  feedbackServer:
+    active: true
+    timeSlotVisible: 10080 # in minutes from start of the talk

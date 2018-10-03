@@ -185,8 +185,8 @@
                                         <merger>
                                             <target>${project.build.outputDirectory}/conferences.yml</target>
                                             <sources>
-                                                <source>src/main/resources/conferences-header.yml</source>
-                                                <source>src/main/resources/conferences-javaland.yml</source>
+                                                <source>src/main/resources/conferences-header.yaml</source>
+                                                <source>src/main/resources/conferences-javaland.yaml</source>
                                             </sources>
                                         </merger>
                                     </mergers>
