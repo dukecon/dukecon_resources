@@ -15,7 +15,7 @@ pipeline {
     stage('Clean / Build / Deploy') {
        steps {
          withMaven {
-           sh 'mvn clean deploy -Pgenerate-all-public'
+           sh 'mvn clean deploy'
         }
       }
     }
