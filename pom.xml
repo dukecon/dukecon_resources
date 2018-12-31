@@ -120,7 +120,7 @@
     </issueManagement>
 
     <build>
-        <defaultGoal>package</defaultGoal>
+        <defaultGoal>process-resources</defaultGoal>
         <pluginManagement>
             <plugins>
                 <plugin>
