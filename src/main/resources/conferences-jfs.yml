@@ -4,7 +4,8 @@
   internalId: 496615
   conference: jfs
   year: 2016
-  talksUri: jfs-2016-final-finished-conf.raw.json
+  talksUri:
+    eventsData: jfs-2016-final-finished-conf.raw.json
   url: https://jfs.dukecon.org/2016
   homeUrl: http://www.java-forum-stuttgart.de
 # TODO
