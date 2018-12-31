@@ -207,7 +207,7 @@
                         <artifactId>merge-maven-plugin</artifactId>
                         <executions>
                             <execution>
-                                <id>merge</id>
+                                <id>merge-all-nonpublic</id>
                                 <phase>process-resources</phase>
                                 <goals>
                                     <goal>merge</goal>
@@ -248,7 +248,7 @@
                         <artifactId>merge-maven-plugin</artifactId>
                         <executions>
                             <execution>
-                                <id>merge</id>
+                                <id>merge-apachecon</id>
                                 <phase>process-resources</phase>
                                 <goals>
                                     <goal>merge</goal>
