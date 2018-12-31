@@ -152,10 +152,10 @@
                                         <merger>
                                             <target>${project.build.outputDirectory}/conferences.yml</target>
                                             <sources>
-                                                <source>src/main/resources/conferences-header.yml</source>
-                                                <source>src/main/resources/conferences-javaland.yml</source>
-                                                <source>src/main/resources/conferences-doag.yml</source>
-                                                <source>src/main/resources/conferences-jfs.yml</source>
+                                                <source>src/main/conference-fragments/conferences-header.yml</source>
+                                                <source>src/main/conference-fragments/conferences-javaland.yml</source>
+                                                <source>src/main/conference-fragments/conferences-doag.yml</source>
+                                                <source>src/main/conference-fragments/conferences-jfs.yml</source>
                                             </sources>
                                         </merger>
                                     </mergers>
@@ -185,8 +185,8 @@
                                         <merger>
                                             <target>${project.build.outputDirectory}/conferences.yml</target>
                                             <sources>
-                                                <source>src/main/resources/conferences-header.yaml</source>
-                                                <source>src/main/resources/conferences-javaland.yaml</source>
+                                                <source>src/main/conference-fragments/conferences-header.yml</source>
+                                                <source>src/main/conference-fragments/conferences-javaland.yml</source>
                                             </sources>
                                         </merger>
                                     </mergers>
@@ -216,8 +216,8 @@
                                         <merger>
                                             <target>${project.build.outputDirectory}/conferences.yml</target>
                                             <sources>
-                                                <source>src/main/resources/conferences-header.yml</source>
-                                                <source>src/main/resources/conferences-doag.yml</source>
+                                                <source>src/main/conference-fragments/conferences-header.yml</source>
+                                                <source>src/main/conference-fragments/conferences-doag.yml</source>
                                             </sources>
                                         </merger>
                                     </mergers>
@@ -235,33 +235,40 @@
             </activation>
             <build>
                 <plugins>
-                <plugin>
-                    <groupId>org.zcore.maven</groupId>
-                    <artifactId>merge-maven-plugin</artifactId>
-                    <executions>
-                        <execution>
-                            <id>merge</id>
-                            <phase>process-resources</phase>
-                            <goals>
-                                <goal>merge</goal>
-                            </goals>
-                            <configuration>
-                                <mergers>
-                                    <merger>
-                                        <target>${project.build.outputDirectory}/conferences.yml</target>
-                                        <sources>
-                                            <source>src/main/resources/conferences-header.yml</source>
-                                            <source>src/main/resources/conferences-javaland.yml</source>
-                                            <source>src/main/resources/conferences-doag.yml</source>
-                                            <source>src/main/resources/conferences-jfs.yml</source>
-                                            <source>src/main/resources/conferences-herbstcampus.yml</source>
-                                        </sources>
-                                    </merger>
-                                </mergers>
-                            </configuration>
-                        </execution>
-                    </executions>
-                </plugin>
+                    <plugin>
+                        <groupId>org.zcore.maven</groupId>
+                        <artifactId>merge-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>merge</id>
+                                <phase>process-resources</phase>
+                                <goals>
+                                    <goal>merge</goal>
+                                </goals>
+                                <configuration>
+                                    <mergers>
+                                        <merger>
+                                            <target>${project.build.outputDirectory}/conferences.yml</target>
+                                            <sources>
+                                                <source>src/main/conference-fragments/conferences-header.yml</source>
+                                                <source>src/main/conference-fragments/conferences-javaland.yml</source>
+                                                <source>src/main/conference-fragments/conferences-doag.yml</source>
+                                                <source>src/main/conference-fragments/conferences-jfs.yml</source>
+                                                <source>src/main/conference-fragments/conferences-herbstcampus.yml</source>
+                                            </sources>
+                                        </merger>
+                                        <merger>
+                                            <target>${project.build.outputDirectory}/conferences.yaml</target>
+                                            <sources>
+                                                <source>src/main/conference-fragments/conferences-header.yaml</source>
+                                                <source>src/main/conference-fragments/conferences-javaland.yaml</source>
+                                            </sources>
+                                        </merger>
+                                    </mergers>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
                 </plugins>
             </build>
         </profile>
@@ -290,12 +297,12 @@
                                         <merger>
                                             <target>${project.build.outputDirectory}/conferences.yml</target>
                                             <sources>
-                                                <source>src/main/resources/conferences-header.yml</source>
-                                                <source>src/main/resources/conferences-javaland.yml</source>
-                                                <source>src/main/resources/conferences-doag.yml</source>
-                                                <source>src/main/resources/conferences-jfs.yml</source>
-                                                <source>src/main/resources/conferences-herbstcampus.yml</source>
-                                                <source>src/main/resources/conferences-apachecon-NONPUBLIC.yml</source>
+                                                <source>src/main/conference-fragments/conferences-header.yml</source>
+                                                <source>src/main/conference-fragments/conferences-javaland.yml</source>
+                                                <source>src/main/conference-fragments/conferences-doag.yml</source>
+                                                <source>src/main/conference-fragments/conferences-jfs.yml</source>
+                                                <source>src/main/conference-fragments/conferences-herbstcampus.yml</source>
+                                                <source>src/main/conference-fragments/conferences-apachecon-NONPUBLIC.yml</source>
                                             </sources>
                                         </merger>
                                     </mergers>
@@ -331,8 +338,8 @@
                                         <merger>
                                             <target>${project.build.outputDirectory}/conferences.yml</target>
                                             <sources>
-                                                <source>src/main/resources/conferences-header.yml</source>
-                                                <source>src/main/resources/conferences-apachecon-NONPUBLIC.yml</source>
+                                                <source>src/main/conference-fragments/conferences-header.yml</source>
+                                                <source>src/main/conference-fragments/conferences-apachecon-NONPUBLIC.yml</source>
                                             </sources>
                                         </merger>
                                     </mergers>
