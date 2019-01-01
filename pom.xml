@@ -55,7 +55,14 @@
         <nexus.repository.base>/nexus</nexus.repository.base>
 
         <!-- Plugin and Dependency versions - keep them in alphabetical order -->
+        <groovy-eclipse-batch.version>2.5.5-01</groovy-eclipse-batch.version>
+        <groovy-eclipse-compiler.version>2.9.3-01</groovy-eclipse-compiler.version>
+        <groovy-all.version>2.5.5</groovy-all.version>
+        <lombok.version>1.18.2</lombok.version>
+        <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
         <merge-maven-plugin.version>0.0.3</merge-maven-plugin.version>
+        <slf4j-simple.version>1.7.25</slf4j-simple.version>
+        <snakeyaml.version>1.23</snakeyaml.version>
 
         <!-- Check automatic versions from time to time! -->
     </properties>
@@ -119,6 +126,30 @@
         <url>https://github.com/dukecon/dukecon_resources/issues</url>
     </issueManagement>
 
+    <dependencies>
+        <!--<dependency>-->
+        <!--<groupId>org.projectlombok</groupId>-->
+        <!--<artifactId>lombok</artifactId>-->
+        <!--<version>${lombok.version}</version>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>${groovy-all.version}</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${slf4j-simple.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>${snakeyaml.version}</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <defaultGoal>process-resources</defaultGoal>
         <pluginManagement>
@@ -131,6 +162,39 @@
             </plugins>
         </pluginManagement>
         <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
+                <configuration>
+                    <compilerId>groovy-eclipse-compiler</compilerId>
+                    <fork>true</fork>
+                    <!--<compilerArguments>-->
+                        <!--<javaAgentClass>lombok.launch.Agent</javaAgentClass>-->
+                    <!--</compilerArguments>-->
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.codehaus.groovy</groupId>
+                        <artifactId>groovy-eclipse-compiler</artifactId>
+                        <version>${groovy-eclipse-compiler.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.codehaus.groovy</groupId>
+                        <artifactId>groovy-eclipse-batch</artifactId>
+                        <version>${groovy-eclipse-batch.version}</version>
+                    </dependency>
+                    <!--<dependency>-->
+                        <!--<groupId>org.projectlombok</groupId>-->
+                        <!--<artifactId>lombok</artifactId>-->
+                        <!--<version>${lombok.version}</version>-->
+                    <!--</dependency>-->
+                </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.groovy</groupId>
+                <artifactId>groovy-eclipse-compiler</artifactId>
+                <version>${groovy-eclipse-compiler.version}</version>
+            </plugin>
             <plugin>
                 <groupId>org.zcore.maven</groupId>
                 <artifactId>merge-maven-plugin</artifactId>
