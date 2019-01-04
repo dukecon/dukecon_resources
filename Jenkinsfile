@@ -29,7 +29,8 @@ pipeline {
             }
             steps {
                 withMaven {
-                    sh 'mvn clean verify -Pdocker'
+                    // TODO Move the docker:push to the master branch once it is merged
+                    sh 'mvn clean verify -Pdocker docker:push'
                 }
             }
         }
