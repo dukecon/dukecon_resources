@@ -29,8 +29,7 @@ pipeline {
             }
             steps {
                 withMaven {
-                    // TODO add clean as soon as we have archived most of the "old" data and/or have a minimum size for data files or other error check
-                    sh 'mvn verify -Pdocker'
+                    sh 'mvn clean verify -Pdocker'
                 }
             }
         }
