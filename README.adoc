@@ -1,71 +1,168 @@
 = DukeCon Resources
 
-This project contains DukeCon (configuration) resources, in particular `conferences.yml` (or the fragments which are
-combined to a suitable DukeCon conference configuration).
+This project contains
 
-NOTE: In the future this project might be extended by more DukeCon configuration and resource items!
+* DukeCon (configuration) resources, in particular `conferences.yml` (or the fragments which are composed to a suitable DukeCon conference configuration),
+* Static DukeCon conference data (conference archive),
+* Some code/Docker configuration to provide a DukeCon conference archive/cache service for current and legacy conferences.
+
+[NOTE]
+====
+Currently the data in the Docker image is stored and provided statically.
+In the future the service might be extended by a caching proxy to improve access to remote (slow) conference data of active conferences.
+====
 
 == Motivation
 
-The project contributes to the widespread single source principle of IT artifacts management. It should be possible
-to
+The project contributes to the widespread single source principle of IT artifacts management. It should be possible to
 
 * create new artifacts out of the existing ones,
 * directly install the given or the composed artifacts to target systems,
-* deploy the artifacts into suitable repositories (e.g., Maven oder Docker) for later use.
+* deploy the artifacts into suitable repositories (e.g., Maven oder Docker),
+* provide live data (eg. http://archive.dukecon.org) of current and legacy conference program contents.
 
 == Contents
 
 Currently the project only contains misc. fragments of DukeCon `conference.yml` configuration files, e.g.,
 
 [source,yaml]
-.DukeCon JavaLand conference configuration
+.DukeCon JavaLand conference configuration (extract)
 ----
 include::src/main/conference-fragments/conferences-javaland.yml[lines=1..15]
 ...
 ----
 
-These source fragments are stored in the link:src/main/resources[] folder of the project.
+These source fragments are stored in the link:src/main/conference-fragments[] folder of the project.
+
+Additionally it contains some _archived_ content of older conferences in link:src/main/data[].
+
+[CAUTION]
+.Legacy Conference Data
+[[caution:legacy-code]]
+====
+The code in some other DukeCon projects (https://github.com/dukecon/dukecon_pwa.git[DukeCon Web UI] and https://github.com/dukecon/dukecon_server.git[DukeCon Server]) which was used to provide the misc. conference program web sites from the data has undergone several refactorings.
+During this course the team did not always keep the code working for outdated conferences.
+Hence, we still have some older data but the server and UI code might not be able to process this data.
+====
 
 == Usage
 
-All actions can be performed by the included Maven Wrapper (`mvnw` or `mvnw.cmd` on Windows).
+All actions can be performed by the included Maven Wrapper (`mvnw` or `mvnw.cmd` on Windows), or by your local Maven or IDE-based Maven.
 
-=== Composition
+The following usage types are provided:
+
+* <<sec:conference-composition>>
+* <<sec:docker-composition>>
+
+[[sec:conference-composition]]
+=== Composition of conference configurations
 
 The sources are composed to new artifacts during the Maven _process-resources_ phase and will be generated to the
-link:target/classes[] folder (currently together with all source fragments):
+link:target/classes[] folder:
 
   mvnw process-resources
 
 ==== Composed files
 
+The default build creates a number of compositions for different DukeCon conferences (files will be located in link:target/classes[]):
+
 The following file(s) is/are composed:
 
-`target/classes/conferences.yml`:: The composition of this file depends on a Maven profile. The profile can be selected
-manually or it is selected automatically depending on, e.g., the hostname of the generating host.
+link:target/classes/conferences.yml[`conferences.yml`]::
+The composition of this file depends on a Maven profile (cf. <<sec:maven-profiles>>).
+The profile can be selected manually or it is selected automatically depending on, e.g., the hostname of the generating host.
+It is a collection of all suitable conferences (e.g. all public conferences);
 
+link:target/classes/conferences-javaland.yml[`conferences-javaland.yml`]::
+  The http://programm.javaland.eu[Javaland conferences];
+
+link:target/classes/conferences-doag.yml[`conferences-doag.yml`]::
+  The http://programm.doag.org[DOAG conferences];
+
+link:target/classes/conferences-ijug+doag.yml[`conferences-ijug+doag.yml`]::
+  All conferences provides by http://doag.org[DOAG] and http://ijug.eu[iJUG] (currently http://programm.javaland.eu[Javaland] + Java Forum Stuttgart);
+
+link:target/classes/conferences-stable.yml[`conferences-stable.yml`]::
+  All conferences which are backed by a stable code base (currently DOAG, Javaland + https://apachecon.dukecon.org[ApacheCon], as opposed to the legacy conferences, cf. <<caution:legacy-code>>).
+
+[[sec:maven-profiles]]
 ==== Maven profiles
 
-The following profiles can be used to select the fragments which are combined to the final file(s)
+The following Maven profiles can be used to generate particular fragments which are combined to the final file(s)
 
-`generate-all-public`:: Used to generate a conferences file containing configurations for all conferences with publicly
-available data sources.
-
-`generate-ijug+doag`:: Used on hosts which provide http://ijug.eu[iJUG] conferences (i.e., https://javaland.eu +
-https://java-forum-stuttgart.de) and http://doag.org[DOAG] conferences.
-
-`generate-all-nonpublic`:: Used to generate a conferences file containing configurations for all conferences with
+`generate-all-nonpublic` (automatically selected on host `dukecon0`):: Used to generate a conferences file containing configurations for all conferences with
 publicly and non publicly available data sources (e.g. ApacheCon). The fragments of the non-public data sources then
 must be available locally to perform a valid build.
 
-`generate-doag`:: Generate conference configuration for all DOAG conferences.
-`generate-javaland`:: Generate conference configuration for all Javaland conferences.
-
-`generate-apachecon`:: Generate conference configuration for ApacheCon (_hint_: This will only work if you have the
+`generate-apachecon` (automatically selected on host `apachecon0`):: Generate conference configuration for ApacheCon (_hint_: This will only work if you have the
 non-publicly available conference configuration fragment for ApacheCon present locally).
 
-=== Maven Packaging and Install / Deploy (Deprecated)
+[[sec:docker-composition]]
+=== Docker Composition
+
+In general, provisioning and consumption of conference data in development, test and production
+
+* needs a lot of computation efforts on the data provider side (Most of the conference data of current conferences is computed on the fly from other sources);
+* requires network bandwidth for both, provider and consumer (in particular for speaker data with images etc.);
+* leads to some latency and the risk of network or resource outages.
+
+NOTE: Suppose you are a DukeCon developer and do not want to consume large amounts of downloading data when performing some tests.
+
+To circumvent or reduce these restrictions a Docker image can be created from the fragments and the computed compositions (and the referenced conference data).
+Depending on the composed fragments the data of the respective conferences are fetched from their original sites and can be packed into the Docker image (cf. <<sec:docker-build>>.
+The archived data (from link:src/main/data[]) will also be put into the image.
+The Docker image can be started
+
+* as a service on the internet (a current instance is http://archive.dukecon.org[] site),
+* or locally (cf. <<sec:docker-run>>).
+
+There are several usage scenarios for such an active data source:
+
+* The site http://archive.dukecon.org[] provides a stable state of some legacy and current conferences (Use http://archive.dukecon.org/cgi-bin/conferences.cgi[]).
+  ** It can (and will) be used to provide access to older conference data which is no longer provided by the conference organisation;
+  ** It can be used for larger testing on the test infrastructure.
+* Developers and testers can run a local version (either pulled from Docker Hub or built locally).
+  ** If desired they can even work offline;
+  ** They can provide particular subsets for their developer tests if necessary;
+  ** They can manipulate data for local tests
+  ** etc.
+
+==== Docker Pull
+
+A current version can be found on https://hub.docker.com/r/dukecon/dukecon-resources[Docker Hub].
+
+It can be pulled by
+
+  docker pull dukecon/dukecon-resources
+
+[[sec:docker-build]]
+==== Docker Build
+
+A local build can be performed with Maven by activating the `docker` profile
+
+  mvnw clean verify -Pdocker
+
+By selecting a particular second Maven profile the downloaded conference data can be reduced or completely omitted (by restricting the image contents to local/archived data).
+
+[[sec:docker-run]]
+==== Docker Run
+
+Once the local image is either pulled or built, a container may be started
+
+  docker run --rm -p 42080:80 --name dukecon-resources dukecon/dukecon-resources
+
+The embedded Apache httpd is exposed via the given Port (`42080`) and provides all stored data via the links in the conferences resource:
+http://localhost:42080/cgi-bin/conferences.cgi[].
+
+This URL can be directly given to the DukeCon server application:
+
+  java -jar .../dukecon-server.war \
+      ... \
+      --conferences.file=http://localhost:42080/cgi-bin/conferences.cgi
+
+to make it fetch all data from the local archive service instead of from the Internet.
+
+== Maven Packaging and Install / Deploy (Deprecated)
 
 WARNING: This is currently not recommended since the contents of the generated JAR is dependant on the chosen Maven
 profile.
@@ -87,9 +184,9 @@ or deployed to the configured Maven remote repository
 The latter step will be performed automatically by
 https://dev.dukecon.org/jenkins/blue/organizations/jenkins/dukecon_resources/activity[Jenkins].
 
-=== Local installation
+== Local installation
 
-With Maven profiles allow to perform local installations, e.g.,
+With Maven profiles allow to perform local installations on test and production systems, e.g.,
 
   mvnw install -Pinstall-testing-docker
 
