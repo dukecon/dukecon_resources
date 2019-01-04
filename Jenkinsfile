@@ -13,7 +13,7 @@ pipeline {
     }
 
     stages {
-        stage('Clean / Build / Deploy') {
+        stage('Clean / Build / Deploy (on master)') {
             when {
                 branch 'master'
             }
@@ -22,6 +22,8 @@ pipeline {
                     sh 'mvn clean deploy'
                 }
             }
+        }
+        stage('Clean / Build / Verify (on feature branch(es)') {
             when {
                 branch 'feature/*'
             }
