@@ -244,6 +244,15 @@
                                     </sources>
                                 </merger>
                                 <merger>
+                                    <target>${project.build.outputDirectory}/conferences-stable.yml</target>
+                                    <sources>
+                                        <source>src/main/conference-fragments/conferences-header.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag.yml</source>
+                                        <source>src/main/conference-fragments/conferences-apachecon.yml</source>
+                                    </sources>
+                                </merger>
+                                <merger>
                                     <target>${project.build.outputDirectory}/conferences.yml</target>
                                     <sources>
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
