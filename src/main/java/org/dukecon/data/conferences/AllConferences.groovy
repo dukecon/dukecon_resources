@@ -10,7 +10,7 @@ import org.yaml.snakeyaml.Yaml
 @Slf4j
 class AllConferences {
 
-    static baseUrlPlaceHolder = "CONFERENCES_BASE_URL" // "http://localhost:42080"
+    static baseUrlPlaceHolder = "CONFERENCES_BASE_URL"
     static generatedDirBase = "target/generated"
 
     Yaml yaml
@@ -24,7 +24,7 @@ class AllConferences {
 
     // TODO Replace this by generic (all) conferences.yml and/or allow to retrieve different sets
     public void load(String conferenceFilename = "conferences-javaland+doag.yml") {
-        log.info("Starting to convert files")
+        log.info("Starting to convert file from resource '{}'", conferenceFilename)
         InputStream inputStream = this.getClass()
                 .getClassLoader()
                 .getResourceAsStream(conferenceFilename)
