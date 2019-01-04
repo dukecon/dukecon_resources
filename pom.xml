@@ -32,7 +32,7 @@
     </developers>
 
     <scm>
-        <url>https://github.com/dukecon/dukecon_server.git</url>
+        <url>https://github.com/dukecon/dukecon_resources.git</url>
         <connection>scm:git:git@github.com:dukecon/dukecon_resources.git</connection>
     </scm>
     <name>DukeCon Resources</name>
