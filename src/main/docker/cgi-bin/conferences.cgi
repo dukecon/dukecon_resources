@@ -16,7 +16,8 @@ my $template = new IO::File ($templateFilename)
 
 print CGI::header();
 
-my $baseUrl = "$ENV{REQUEST_SCHEME}://$ENV{HTTP_HOST}";
+my $host = $ENV{HTTP_X_FORWARDED_HOST} || $ENV{HTTP_HOST};
+my $baseUrl = "$ENV{REQUEST_SCHEME}://${host}";
 
 while (my $line = $template->getline()) {
     $line =~ s/CONFERENCES_BASE_URL/${baseUrl}/o;
