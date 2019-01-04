@@ -5,7 +5,7 @@
   conference: jfs
   year: 2016
   talksUri:
-    eventsData: jfs-2016-final-finished-conf.raw.json
+    eventsData: jfs2016/events.json
   url: https://jfs.dukecon.org/2016
   homeUrl: http://www.java-forum-stuttgart.de
 # TODO
@@ -41,8 +41,8 @@
   conference: jfs
   year: 2017
   talksUri:
-    eventsData: jfs-2017-formes-dump.csv
-    speakersData: jfs-2017-speaker-formes-dump.csv
+    eventsData: jfs2017/events.csv
+    speakersData: jfs2017/speakers.csv
   url: https://jfs.dukecon.org/2017
   homeUrl: http://www.java-forum-stuttgart.de
 # TODO

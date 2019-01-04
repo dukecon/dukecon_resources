@@ -5,8 +5,8 @@
   conference: javaland
   year: 2016
   talksUri:
-    eventsData: javaland-2016-final-finished-conf.raw
-    speakersData: javaland-speaker-2016.raw
+    eventsData: javaland2016/events.json
+    speakersData: javaland2016/speakers.json
   url: http://javaland.dukecon.org/2016
   homeUrl: http://www.javaland.eu
   imprint:

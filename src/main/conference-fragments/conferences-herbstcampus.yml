@@ -4,7 +4,7 @@
   conference: herbstcampus
   year: 2016
   talksUri:
-    eventsData: herbstcampus-2016/herbstcampus_2016_veranstaltungen_20160826.csv
+    eventsData: hc2016/events.csv
   url: https://herbstcampus.dukecon.org/2016
   name: Herbstcampus 2016
   homeTitle: Herbstcampus
