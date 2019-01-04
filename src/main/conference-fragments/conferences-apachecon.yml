@@ -1,27 +1,33 @@
-# DukeCon conference configuration for ApacheCon - please leave them in chronological order
 -
-  id: apacheconeu2016
-  internalId:
-  conference: apachecon
-  year: eu2016
+  id: acna18
+  internalId: 123456
+  conference: acna
+  year: 2018
   talksUri:
-    conferenceData:https://${conferenceId}.sched.org/api/site/sync?api_key=${conferenceApiKey}
-    eventsData:https://${conferenceId}.sched.org/api/session/list?api_key=${conferenceApiKey}&custom_data=Y&format=json
-  backupUri: apacheconeu2016-2017-backup.raw
-#  talksUri: apacheconeu2016-2017.raw
-  url: http://apachecon.dukecon.org/${year}
-  homeUrl: apacheconeu2016.sched.org
+    eventsData: acna18/events.json
+  backupUri: apachecon-na-2018.json
+  url: http://apachecon-na.dukecon.org/${year}
+  homeUrl: http://apachecon.com/
   imprint:
-    de: https://./de/impressum/
-    en: https://./en/imprint/
+    en: http://apachecon.com/acna18/index.html
   termsOfUse:
-    de: https://./de/nutzungsbedingungen/
-    en: https://./en/terms-of-use/
+    en: http://apachecon.com/acna18/index.html
   privacy:
-    de: https://./de/datenschutz/
-    en: https://./en/privacy/
-  name: ApacheCon Europe 2016
-  startDate: 2016-11-16
-  endDate: 2016-11-18
-  authEnabled: false #default is false
-  extractorClass: org.dukecon.server.repositories.sched.SchedDataExtractor
+    en: http://apachecon.com/acna18/index.html
+  name: ACNA 2018
+  startDate: 2018-09-24
+  endDate: 2018-09-29
+  authEnabled: false
+  extractorClass: org.dukecon.server.repositories.apache.ApacheDataExtractor
+  rawDataMapperClass: org.dukecon.server.repositories.apache.ApacheJsonMapper
+  styles:
+    dark: 'gray'
+    darkLink: '#1aa3b1'
+    hover: '#00c3d7'
+    hoverLink: '#00c3d7'
+    reverse: '#fff'
+    highlight: '#ddee55'
+    alternate: '#bf5a00'
+  feedbackServer:
+    active: false
+    timeSlotVisible: -1 # in minutes from start of the talk, -1 means at any time (testing only)

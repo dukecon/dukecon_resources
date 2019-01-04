@@ -251,6 +251,7 @@
                                         <source>src/main/conference-fragments/conferences-doag.yml</source>
                                         <source>src/main/conference-fragments/conferences-jfs.yml</source>
                                         <source>src/main/conference-fragments/conferences-herbstcampus.yml</source>
+                                        <source>src/main/conference-fragments/conferences-apachecon.yml</source>
                                     </sources>
                                 </merger>
                                 <merger>
