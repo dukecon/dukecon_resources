@@ -54,12 +54,17 @@
         <nexus.repository.port/>
         <nexus.repository.base>/nexus</nexus.repository.base>
 
+        <uptime-max>10000</uptime-max>
+
         <!-- Plugin and Dependency versions - keep them in alphabetical order -->
+        <docker-maven-plugin.version>0.28.0</docker-maven-plugin.version>
+        <exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
         <groovy-eclipse-batch.version>2.5.5-01</groovy-eclipse-batch.version>
         <groovy-eclipse-compiler.version>2.9.3-01</groovy-eclipse-compiler.version>
         <groovy-all.version>2.5.5</groovy-all.version>
         <lombok.version>1.18.2</lombok.version>
         <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
+        <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
         <merge-maven-plugin.version>0.0.3</merge-maven-plugin.version>
         <slf4j-simple.version>1.7.25</slf4j-simple.version>
         <snakeyaml.version>1.23</snakeyaml.version>
@@ -184,9 +189,9 @@
                         <version>${groovy-eclipse-batch.version}</version>
                     </dependency>
                     <!--<dependency>-->
-                        <!--<groupId>org.projectlombok</groupId>-->
-                        <!--<artifactId>lombok</artifactId>-->
-                        <!--<version>${lombok.version}</version>-->
+                    <!--<groupId>org.projectlombok</groupId>-->
+                    <!--<artifactId>lombok</artifactId>-->
+                    <!--<version>${lombok.version}</version>-->
                     <!--</dependency>-->
                 </dependencies>
             </plugin>
@@ -454,6 +459,130 @@
                 </plugins>
             </build>
         </profile>
+        <profile>
+            <id>docker</id>
+            <build>
+                <defaultGoal>verify</defaultGoal>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-resources-plugin</artifactId>
+                        <version>${maven-resources-plugin.version}</version>
+                        <executions>
+                            <execution>
+                                <id>copy-legacy-data</id>
+                                <phase>process-resources</phase>
+                                <goals>
+                                    <goal>copy-resources</goal>
+                                </goals>
+                                <configuration>
+                                    <outputDirectory>${project.build.directory}/generated/htdocs/data</outputDirectory>
+                                    <resources>
+                                        <resource>
+                                            <directory>src/main/data</directory>
+                                        </resource>
+                                    </resources>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <id>copy-docker-resources</id>
+                                <phase>process-resources</phase>
+                                <goals>
+                                    <goal>copy-resources</goal>
+                                </goals>
+                                <configuration>
+                                    <outputDirectory>${project.build.directory}/generated</outputDirectory>
+                                    <resources>
+                                        <resource>
+                                            <directory>src/main/docker</directory>
+                                            <filtering>false</filtering>
+                                        </resource>
+                                    </resources>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <version>${exec-maven-plugin.version}</version>
+                        <executions>
+                            <execution>
+                                <id>fetch-data</id>
+                                <phase>process-classes</phase>
+                                <goals>
+                                    <goal>java</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                        <configuration>
+                            <mainClass>org.dukecon.data.conferences.AllConferences</mainClass>
+                        </configuration>
+                    </plugin>
+                    <plugin>
+                        <groupId>io.fabric8</groupId>
+                        <artifactId>docker-maven-plugin</artifactId>
+                        <version>${docker-maven-plugin.version}</version>
+                        <configuration>
+                            <imagePullPolicy>always</imagePullPolicy>
+                            <images>
+                                <image>
+                                    <name>dukecon/dukecon-resources:${project.version}</name>
+                                    <build>
+                                        <dockerFileDir>${project.build.directory}/generated</dockerFileDir>
+                                        <tags>
+                                            <tag>${project.version}</tag>
+                                            <tag>latest</tag>
+                                        </tags>
+                                    </build>
+                                    <run>
+                                        <ports>
+                                            <!-- Port mappings: Container internal
+                                                port (which must be exposed) will be dynamically mapped and this (random)
+                                                port will be assigned to the maven variable ${tomcat.port}. Multiple port
+                                                mapping can be specified here -->
+                                            <port>dukecon.port:80</port>
+                                        </ports>
+                                        <wait>
+                                            <!-- The plugin waits until this URL is reachable via HTTP ... -->
+                                            <url>
+                                                http://${docker.host.address}:${dukecon.port}/cgi-bin/conferences.cgi
+                                            </url>
+                                            <time>${uptime-max}</time>
+                                        </wait>
+                                        <log>
+                                            <color>BLUE</color>
+                                            <file>${project.build.directory}/docker.log</file>
+                                        </log>
+                                        <imagePullPolicy>IfNotPresent</imagePullPolicy>
+                                    </run>
+                                </image>
+                            </images>
+                        </configuration>
+                        <!-- Connect this plugin to the maven lifecycle around the
+                            integration-test phase. I.e. start the container in pre-integration-test
+                            and stop it in post-integration-test. -->
+                        <executions>
+                            <execution>
+                                <id>start</id>
+                                <phase>pre-integration-test</phase>
+                                <goals>
+                                    <goal>build</goal>
+                                    <goal>start</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>stop</id>
+                                <phase>post-integration-test</phase>
+                                <goals>
+                                    <goal>stop</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
     </profiles>
 
 </project>

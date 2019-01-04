@@ -1,18 +1,30 @@
 package org.dukecon.data.conferences
 
 import groovy.util.logging.Slf4j
+import org.yaml.snakeyaml.DumperOptions
 import org.yaml.snakeyaml.Yaml
 
-import java.nio.charset.StandardCharsets
-
+/**
+ * @author Gerd Aschemann <gerd@aschemann.net>
+ */
 @Slf4j
 class AllConferences {
 
+    static baseUrlPlaceHolder = "CONFERENCES_BASE_URL" // "http://localhost:42080"
+    static generatedDirBase = "target/generated"
+
+    Yaml yaml
     def conferences
 
-    public void load(String conferenceFilename = "conferences.yml") {
+    public AllConferences() {
+        DumperOptions options = new DumperOptions()
+        options.setPrettyFlow(true)
+        yaml = new Yaml(options)
+    }
+
+    // TODO Replace this by generic (all) conferences.yml and/or allow to retrieve different sets
+    public void load(String conferenceFilename = "conferences-javaland+doag.yml") {
         log.info("Starting to convert files")
-        Yaml yaml = new Yaml();
         InputStream inputStream = this.getClass()
                 .getClassLoader()
                 .getResourceAsStream(conferenceFilename)
@@ -25,9 +37,15 @@ class AllConferences {
         }
     }
 
-    private void fetchIfHttp (String url, String filename, File targetDir) {
+    private void fetchIfHttp (def conference, String uriField, String filename, File targetDir) {
+        String url = conference.talksUri[uriField]
         if (url?.startsWith("http")) {
-            File targetFile = new File (targetDir, filename)
+            File dataDir = new File (targetDir, "data")
+            dataDir.mkdirs()
+            File confDir = new File (dataDir, conference.id)
+            confDir.mkdirs()
+            File targetFile = new File (confDir, filename)
+            conference.talksUri[uriField] = "${baseUrlPlaceHolder}/data/${conference.id}/${filename}".toString()
             if (targetFile.exists()) {
                 log.debug("Targetfile '{}' already exists (skipping)", targetFile)
                 return
@@ -41,20 +59,55 @@ class AllConferences {
             } else {
                 log.error ("Could not retrieve '{}': {}", url, getRC)
             }
+        } else if (url) {
+            conference.talksUri[uriField] = "${baseUrlPlaceHolder}/data/${url}".toString()
         }
     }
 
-    public void fetch(String targetDir = "target/generated/data") {
-        File dataDir = new File (targetDir)
-        dataDir.mkdirs()
+    public void fetch(String targetDirname = "${generatedDirBase}/htdocs") {
+        File targetDir = new File (targetDirname)
+        targetDir.mkdirs()
 
         conferences.each {conference ->
-            File confDir = new File (targetDir, conference.id)
-            confDir.mkdirs()
-            fetchIfHttp(conference.talksUri.eventsData, "events.json", confDir)
-            fetchIfHttp(conference.talksUri.speakersData, "speakers.json", confDir)
-            fetchIfHttp(conference.talksUri.additionalData, "additionaldata.json", confDir)
+            fetchIfHttp(conference, "eventsData", "events.json", targetDir)
+            fetchIfHttp(conference, "speakersData", "speakers.json", targetDir)
+            fetchIfHttp(conference, "additionalData", "additionaldata.json", targetDir)
         }
+    }
+
+    public void dump(targetDirname = "${generatedDirBase}/templates") {
+        File confDir = new File (targetDirname)
+        confDir.mkdirs()
+        File confFile = new File (confDir, "conferences.yml.template")
+        log.debug ("Dumping conferences to '{}'", confFile)
+        yaml.dump(conferences, new FileWriter(confFile))
+    }
+
+    public void generateDockerfile (targetDirname = generatedDirBase) {
+        File targetDir = new File(targetDirname)
+        String dockerFileContents = """FROM dukecon/dukecon-httpd-base:latest
+MAINTAINER Gerd Aschemann <gerd@aschemann.net>
+
+RUN apk update && \
+    apk add perl-cgi && \
+    perl -p -i -e 's/#LoadModule cgi/LoadModule cgi/go' /usr/local/apache2/conf/httpd.conf
+
+RUN /bin/rm -f /usr/local/apache2/cgi-bin/*
+
+ADD cgi-bin /usr/local/apache2/cgi-bin
+RUN chmod +x /usr/local/apache2/cgi-bin/*
+
+"""
+        conferences.each {conference ->
+            dockerFileContents += """ADD htdocs/data/${conference.id} /usr/local/apache2/htdocs/data/${conference.id}
+"""
+        }
+
+        dockerFileContents += """
+ADD templates /usr/local/apache2/templates
+"""
+        File dockerFile = new File(targetDir, "Dockerfile")
+        dockerFile.write(dockerFileContents.toString())
     }
 
     public static void main (String[] args) {
@@ -62,6 +115,8 @@ class AllConferences {
         allConferences.load()
         allConferences.list()
         allConferences.fetch()
+        allConferences.dump()
+        allConferences.generateDockerfile()
     }
 
 }
