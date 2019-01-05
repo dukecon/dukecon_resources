@@ -80,7 +80,9 @@ class AllConferences {
         confDir.mkdirs()
         File confFile = new File (confDir, "conferences.yml.template")
         log.debug ("Dumping conferences to '{}'", confFile)
-        yaml.dump(conferences, new FileWriter(confFile))
+        StringWriter yamlContents = new StringWriter()
+        yaml.dump(conferences, yamlContents)
+        confFile.write("# This file is generate automatically - DO NOT EDIT\n" + yamlContents.toString())
     }
 
     public void generateDockerfile (targetDirname = generatedDirBase) {
