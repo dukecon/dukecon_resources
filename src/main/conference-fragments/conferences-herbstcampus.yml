@@ -5,23 +5,23 @@
   year: 2016
   talksUri:
     eventsData: hc2016/events.csv
-  url: https://herbstcampus.dukecon.org/2016
+  url: 'https://herbstcampus.dukecon.org/2016'
   name: Herbstcampus 2016
   homeTitle: Herbstcampus
-  homeUrl: http://www.herbstcampus.de/
+  homeUrl: 'http://www.herbstcampus.de/'
 # TODO
   imprint:
-    de: https://www.herbstcampus.de/impressum.php
+    de: 'https://www.herbstcampus.de/impressum.php'
 # german version only 2017-05-27
-    en: https://www.herbstcampus.de/impressum.php
+    en: 'https://www.herbstcampus.de/impressum.php'
   termsOfUse:
 # missing links
-    de: https://www.herbstcampus.de/impressum.php
-    en: https://www.herbstcampus.de/impressum.php
+    de: 'https://www.herbstcampus.de/impressum.php'
+    en: 'https://www.herbstcampus.de/impressum.php'
   privacy:
 # missing links
-    de: https://www.herbstcampus.de/impressum.php
-    en: https://www.herbstcampus.de/impressum.php
+    de: 'https://www.herbstcampus.de/impressum.php'
+    en: 'https://www.herbstcampus.de/impressum.php'
   startDate: 2016-08-30
   endDate: 2016-09-01
   authEnabled: false

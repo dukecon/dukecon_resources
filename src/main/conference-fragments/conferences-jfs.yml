@@ -6,21 +6,21 @@
   year: 2016
   talksUri:
     eventsData: jfs2016/events.json
-  url: https://jfs.dukecon.org/2016
-  homeUrl: http://www.java-forum-stuttgart.de
+  url: 'https://jfs.dukecon.org/2016'
+  homeUrl: 'http://www.java-forum-stuttgart.de'
 # TODO
   imprint:
-    de: https://www.java-forum-stuttgart.de/de/Impressum.html
+    de: 'https://www.java-forum-stuttgart.de/de/Impressum.html'
 # german version only 2017-05-27
-    en: https://www.java-forum-stuttgart.de/de/Impressum.html
+    en: 'https://www.java-forum-stuttgart.de/de/Impressum.html'
 #  termsOfUse:
 # missing links
-#    de: https://www.java-forum-stuttgart.de
-#    en: https://www.java-forum-stuttgart.de
+#    de: 'https://www.java-forum-stuttgart.de'
+#    en: 'https://www.java-forum-stuttgart.de'
 #  privacy:
 # missing links
-#    de: https://www.java-forum-stuttgart.de
-#    en: https://www.java-forum-stuttgart.de
+#    de: 'https://www.java-forum-stuttgart.de'
+#    en: 'https://www.java-forum-stuttgart.de'
   name: Java Forum Stuttgart 2016
   startDate: 2016-07-07
   endDate: 2016-07-07
@@ -43,21 +43,21 @@
   talksUri:
     eventsData: jfs2017/events.csv
     speakersData: jfs2017/speakers.csv
-  url: https://jfs.dukecon.org/2017
-  homeUrl: http://www.java-forum-stuttgart.de
+  url: 'https://jfs.dukecon.org/2017'
+  homeUrl: 'http://www.java-forum-stuttgart.de'
 # TODO
   imprint:
-    de: https://www.java-forum-stuttgart.de/de/Impressum.html
+    de: 'https://www.java-forum-stuttgart.de/de/Impressum.html'
 # german version only 2017-05-27
-    en: https://www.java-forum-stuttgart.de/de/Impressum.html
+    en: 'https://www.java-forum-stuttgart.de/de/Impressum.html'
 #  termsOfUse:
 # missing links
-#    de: https://www.java-forum-stuttgart.de
-#    en: https://www.java-forum-stuttgart.de
+#    de: 'https://www.java-forum-stuttgart.de'
+#    en: 'https://www.java-forum-stuttgart.de'
 #  privacy:
 # missing links
-#    de: https://www.java-forum-stuttgart.de
-#    en: https://www.java-forum-stuttgart.de
+#    de: 'https://www.java-forum-stuttgart.de'
+#    en: 'https://www.java-forum-stuttgart.de'
   name: Java Forum Stuttgart 2017
   startDate: 2017-07-06
   endDate: 2017-07-06

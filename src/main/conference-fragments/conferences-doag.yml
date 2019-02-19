@@ -5,23 +5,23 @@
   conference: analytics
   year: 2018
   talksUri:
-    eventsData: https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=552788
-    speakersData: https://www.javaland.eu/api/referenten_bigdata.php?key=JL-EOPTGB-DR
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=552788'
+    speakersData: 'https://www.javaland.eu/api/referenten_bigdata.php?key=JL-EOPTGB-DR'
   backupUri: analytics-2018-backup.raw
-  url: https://programm.doag.org/${conference}/${year}
-  homeUrl: http://analytics.doag.org/
+  url: 'https://programm.doag.org/${conference}/${year}'
+  homeUrl: 'http://analytics.doag.org/'
   imprint:
-    de: https://analytics2017.doag.org/de/impressum/
+    de: 'https://analytics2017.doag.org/de/impressum/'
 # missing link
-    en: https://analytics2017.doag.org/en/imprint/
+    en: 'https://analytics2017.doag.org/en/imprint/'
   termsOfUse:
-    de: https://analytics2017.doag.org/de/nutzungsbedingungen/
+    de: 'https://analytics2017.doag.org/de/nutzungsbedingungen/'
 # missing link
-    en: https://analytics2017.doag.org/en/term-of-use/
+    en: 'https://analytics2017.doag.org/en/term-of-use/'
   privacy:
-    de: https://analytics2017.doag.org/de/datenschutz/
+    de: 'https://analytics2017.doag.org/de/datenschutz/'
 # missing link
-    en: https://analytics2017.doag.org/en/privacy/
+    en: 'https://analytics2017.doag.org/en/privacy/'
   name: DATA ANALYTICS 2018
   startDate: 2018-03-19
   endDate: 2018-03-20
@@ -42,20 +42,20 @@
   conference: apex
   year: 2017
   talksUri:
-    eventsData: https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=527880
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=527880'
   backupUri: apex-2017-backup.raw
-  url: http://${conference}.dukecon.org/${year}
-  homeUrl: http://apex.doag.org/
+  url: 'http://${conference}.dukecon.org/${year}'
+  homeUrl: 'http://apex.doag.org/'
   imprint:
-    de: https://apex.doag.org/de/impressum/
+    de: 'https://apex.doag.org/de/impressum/'
 # use imprint? both get 404 response 2017-05-27
-    en: https://apex.doag.org/en/impressum/
+    en: 'https://apex.doag.org/en/impressum/'
   termsOfUse:
-    de: https://apex.doag.org/de/nutzungsbedingungen/
-    en: https://apex.doag.org/en/term-of-use/
+    de: 'https://apex.doag.org/de/nutzungsbedingungen/'
+    en: 'https://apex.doag.org/en/term-of-use/'
   privacy:
-    de: https://apex.doag.org/de/datenschutz/
-    en: https://apex.doag.org/en/privacy/
+    de: 'https://apex.doag.org/de/datenschutz/'
+    en: 'https://apex.doag.org/en/privacy/'
   name: APEX Connect 2017
   startDate: 2017-05-09
   endDate: 2017-05-11
@@ -76,21 +76,21 @@
   conference: apex
   year: 2018
   talksUri:
-    eventsData: https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=543336
-    speakersData: https://www.javaland.eu/api/referenten_apex.php?key=JL-EOPTGB-DR
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=543336'
+    speakersData: 'https://www.javaland.eu/api/referenten_apex.php?key=JL-EOPTGB-DR'
   backupUri: apex-2018-backup.raw
-  url: http://${conference}.dukecon.org/${year}
-  homeUrl: http://apex.doag.org/
+  url: 'http://${conference}.dukecon.org/${year}'
+  homeUrl: 'http://apex.doag.org/'
   imprint:
-    de: https://apex.doag.org/de/impressum/
+    de: 'https://apex.doag.org/de/impressum/'
 # use imprint? both get 404 response 2017-05-27
-    en: https://apex.doag.org/en/impressum/
+    en: 'https://apex.doag.org/en/impressum/'
   termsOfUse:
-    de: https://apex.doag.org/de/nutzungsbedingungen/
-    en: https://apex.doag.org/en/term-of-use/
+    de: 'https://apex.doag.org/de/nutzungsbedingungen/'
+    en: 'https://apex.doag.org/en/term-of-use/'
   privacy:
-    de: https://apex.doag.org/de/datenschutz/
-    en: https://apex.doag.org/en/privacy/
+    de: 'https://apex.doag.org/de/datenschutz/'
+    en: 'https://apex.doag.org/en/privacy/'
   name: APEX Connect 2018
   startDate: 2018-04-24
   endDate: 2018-04-26
@@ -111,23 +111,23 @@
   conference: datenbank
   year: 2018
   talksUri:
-    eventsData: https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=550377
-    speakersData: https://www.javaland.eu/api/referenten_datenbank.php?key=JL-EOPTGB-DR
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=550377'
+    speakersData: 'https://www.javaland.eu/api/referenten_datenbank.php?key=JL-EOPTGB-DR'
   backupUri: db-2018-backup.raw
-  url: https://programm.doag.org/${conference}/${year}
-  homeUrl: http://datenbank.doag.org/
+  url: 'https://programm.doag.org/${conference}/${year}'
+  homeUrl: 'http://datenbank.doag.org/'
   imprint:
-    de: https://datenbank.doag.org/de/impressum/
+    de: 'https://datenbank.doag.org/de/impressum/'
 # missing link
-    en: https://datenbank.doag.org/en/imprint/
+    en: 'https://datenbank.doag.org/en/imprint/'
   termsOfUse:
-    de: https://datenbank.doag.org/de/nutzungsbedingungen/
+    de: 'https://datenbank.doag.org/de/nutzungsbedingungen/'
 # missing link
-    en: https://datenbank.doag.org/en/term-of-use/
+    en: 'https://datenbank.doag.org/en/term-of-use/'
   privacy:
-    de: https://datenbank.doag.org/de/datenschutz/
+    de: 'https://datenbank.doag.org/de/datenschutz/'
 # missing link
-    en: https://datenbank.doag.org/en/privacy/
+    en: 'https://datenbank.doag.org/en/privacy/'
   name: DOAG 2018 Datenbank
   startDate: 2018-05-14
   endDate: 2018-05-15
@@ -148,22 +148,22 @@
   conference: doag
   year: 2016
   talksUri:
-    eventsData: https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=512089
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=512089'
   backupUri: doag-2016-backup.raw
-  url: https://programm.doag.org/${conference}/${year}
-  homeUrl: http://2016.doag.org/
+  url: 'https://programm.doag.org/${conference}/${year}'
+  homeUrl: 'http://2016.doag.org/'
 # 404 response 2017-05-27
   imprint:
-    de: https://2016.doag.org/de/impressum/
-    en: https://2016.doag.org/en/imprint/
+    de: 'https://2016.doag.org/de/impressum/'
+    en: 'https://2016.doag.org/en/imprint/'
 # missing links
   termsOfUse:
-    de: https://2016.doag.org/de/nutzungsbedingungen/
-    en: https://2016.doag.org/en/term-of-use/
+    de: 'https://2016.doag.org/de/nutzungsbedingungen/'
+    en: 'https://2016.doag.org/en/term-of-use/'
 # missing links
   privacy:
-    de: https://2016.doag.org/de/datenschutz/
-    en: https://2016.doag.org/en/privacy/
+    de: 'https://2016.doag.org/de/datenschutz/'
+    en: 'https://2016.doag.org/en/privacy/'
   name: DOAG Konferenz + Ausstellung 2016
   startDate: 2016-11-15
   endDate: 2016-11-18
@@ -184,23 +184,23 @@
   conference: doag
   year: 2017
   talksUri:
-    eventsData: https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=535509
-    speakersData: https://www.javaland.eu/api/referenten.php?key=JL-EOPTGB-DR
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=535509'
+    speakersData: 'https://www.javaland.eu/api/referenten.php?key=JL-EOPTGB-DR'
   backupUri: doag-2017-backup.raw
-  url: https://programm.doag.org/${conference}/${year}
-  homeUrl: http://2017.doag.org/
+  url: 'https://programm.doag.org/${conference}/${year}'
+  homeUrl: 'http://2017.doag.org/'
   imprint:
-    de: https://2017.doag.org/de/impressum/
+    de: 'https://2017.doag.org/de/impressum/'
 # missing link
-    en: https://2017.doag.org/en/imprint/
+    en: 'https://2017.doag.org/en/imprint/'
   termsOfUse:
-    de: https://2017.doag.org/de/nutzungsbedingungen/
+    de: 'https://2017.doag.org/de/nutzungsbedingungen/'
 # missing link
-    en: https://2017.doag.org/en/term-of-use/
+    en: 'https://2017.doag.org/en/term-of-use/'
   privacy:
-    de: https://2017.doag.org/de/datenschutz/
+    de: 'https://2017.doag.org/de/datenschutz/'
 # missing link
-    en: https://2017.doag.org/en/privacy/
+    en: 'https://2017.doag.org/en/privacy/'
   name: DOAG Konferenz + Ausstellung 2017
   startDate: 2017-11-21
   endDate: 2017-11-24
@@ -221,21 +221,21 @@
   conference: doag
   year: 2018
   talksUri:
-    eventsData: https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=554070
-    speakersData: https://www.javaland.eu/api/referenten.php?key=JL-EOPTGB-DR
-    additionalData: https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=554070'
+    speakersData: 'https://www.javaland.eu/api/referenten.php?key=JL-EOPTGB-DR'
+    additionalData: 'https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: doag-2018-backup.raw
-  url: https://programm.doag.org/${conference}/${year}
-  homeUrl: http://2018.doag.org/
+  url: 'https://programm.doag.org/${conference}/${year}'
+  homeUrl: 'http://2018.doag.org/'
   imprint:
-    de: https://2018.doag.org/de/impressum/
-    en: https://2018.doag.org/en/imprint/
+    de: 'https://2018.doag.org/de/impressum/'
+    en: 'https://2018.doag.org/en/imprint/'
   termsOfUse:
-    de: https://2018.doag.org/de/nutzungsbedingungen/
-    en: https://2018.doag.org/en/term-of-use/
+    de: 'https://2018.doag.org/de/nutzungsbedingungen/'
+    en: 'https://2018.doag.org/en/term-of-use/'
   privacy:
-    de: https://2018.doag.org/de/datenschutz/
-    en: https://2018.doag.org/en/privacy/
+    de: 'https://2018.doag.org/de/datenschutz/'
+    en: 'https://2018.doag.org/en/privacy/'
   name: DOAG Konferenz + Ausstellung 2018
   startDate: 2018-11-20
   endDate: 2018-11-23
@@ -259,23 +259,23 @@
   conference: exadata
   year: 2018
   talksUri:
-    eventsData: https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=551371
-    speakersData: https://www.javaland.eu/api/referenten_exadata.php?key=JL-EOPTGB-DR
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=551371'
+    speakersData: 'https://www.javaland.eu/api/referenten_exadata.php?key=JL-EOPTGB-DR'
   backupUri: exadata-2018-backup.raw
-  url: https://programm.doag.org/${conference}/${year}
-  homeUrl: https://exadatadatenbank.doag.org/
+  url: 'https://programm.doag.org/${conference}/${year}'
+  homeUrl: 'https://exadatadatenbank.doag.org/'
   imprint:
-    de: https://exadata.doag.org/de/impressum/
+    de: 'https://exadata.doag.org/de/impressum/'
 # missing link
-    en: https://exadata.doag.org/en/imprint/
+    en: 'https://exadata.doag.org/en/imprint/'
   termsOfUse:
-    de: https://exadata.doag.org/de/nutzungsbedingungen/
+    de: 'https://exadata.doag.org/de/nutzungsbedingungen/'
 # missing link
-    en: https://exadata.doag.org/en/term-of-use/
+    en: 'https://exadata.doag.org/en/term-of-use/'
   privacy:
-    de: https://exadata.doag.org/de/datenschutz/
+    de: 'https://exadata.doag.org/de/datenschutz/'
 # missing link
-    en: https://exadata.doag.org/en/privacy/
+    en: 'https://exadata.doag.org/en/privacy/'
   name: DOAG 2018 Exadata
   startDate: 2018-06-18
   endDate: 2018-06-19
@@ -296,23 +296,23 @@
   conference: logistik
   year: 2018
   talksUri:
-    eventsData: https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=555289
-    speakersData: https://www.javaland.eu/api/referenten_logistik.php?key=JL-EOPTGB-DR
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=555289'
+    speakersData: 'https://www.javaland.eu/api/referenten_logistik.php?key=JL-EOPTGB-DR'
   backupUri: logistik-2018-backup.raw
-  url: https://programm.doag.org/${conference}/${year}
-  homeUrl: https://logistik.doag.org/
+  url: 'https://programm.doag.org/${conference}/${year}'
+  homeUrl: 'https://logistik.doag.org/'
   imprint:
-    de: https://logistik.doag.org/de/impressum/
+    de: 'https://logistik.doag.org/de/impressum/'
 # missing link
-    en: https://logistik.doag.org/en/imprint/
+    en: 'https://logistik.doag.org/en/imprint/'
   termsOfUse:
-    de: https://logistik.doag.org/de/nutzungsbedingungen/
+    de: 'https://logistik.doag.org/de/nutzungsbedingungen/'
 # missing link
-    en: https://logistik.doag.org/en/term-of-use/
+    en: 'https://logistik.doag.org/en/term-of-use/'
   privacy:
-    de: https://logistik.doag.org/de/datenschutz/
+    de: 'https://logistik.doag.org/de/datenschutz/'
 # missing link
-    en: https://logistik.doag.org/en/privacy/
+    en: 'https://logistik.doag.org/en/privacy/'
   name: DOAG 2018 Logistik
   startDate: 2018-06-14
   endDate: 2018-06-14
@@ -333,21 +333,21 @@
   conference: ka
   year: 2018
   talksUri:
-    eventsData: https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=554070
-    speakersData: https://www.javaland.eu/api/referenten_ka.php?key=JL-EOPTGB-DR
-    additionalData: https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=554070'
+    speakersData: 'https://www.javaland.eu/api/referenten_ka.php?key=JL-EOPTGB-DR'
+    additionalData: 'https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: kua-2018-backup.raw
-  url: https://${conference}.dukecon.org/${year}
-  homeUrl: https://2018.doag.org/
+  url: 'https://${conference}.dukecon.org/${year}'
+  homeUrl: 'https://2018.doag.org/'
   imprint:
-    de: https://2018.doag.org/de/impressum/
-    en: https://2018.doag.org/en/impressum/
+    de: 'https://2018.doag.org/de/impressum/'
+    en: 'https://2018.doag.org/en/impressum/'
   termsOfUse:
-    de: https://2018.doag.org/de/nutzungsbedingungen/
-    en: https://2018.doag.org/en/term-of-use/
+    de: 'https://2018.doag.org/de/nutzungsbedingungen/'
+    en: 'https://2018.doag.org/en/term-of-use/'
   privacy:
-    de: https://2018.doag.org/de/datenschutz/
-    en: https://2018.doag.org/en/privacy/
+    de: 'https://2018.doag.org/de/datenschutz/'
+    en: 'https://2018.doag.org/en/privacy/'
   name: Konferenz + Ausstellung 2018
   startDate: 2018-11-20
   endDate: 2018-11-23
@@ -371,21 +371,21 @@
   conference: bigdata
   year: 2018
   talksUri:
-    eventsData: https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=561752
-    speakersData: https://www.javaland.eu/api/referenten_bigdata.php?key=JL-EOPTGB-DR
-    additionalData: https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=561752'
+    speakersData: 'https://www.javaland.eu/api/referenten_bigdata.php?key=JL-EOPTGB-DR'
+    additionalData: 'https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: bigdata-2018-backup.raw
-  url: https://${conference}.dukecon.org/${year}
-  homeUrl: https://bigdata.doag.org/
+  url: 'https://${conference}.dukecon.org/${year}'
+  homeUrl: 'https://bigdata.doag.org/'
   imprint:
-    de: https://bigdata.doag.org/de/impressum/
-    en: https://bigdata.doag.org/en/impressum/
+    de: 'https://bigdata.doag.org/de/impressum/'
+    en: 'https://bigdata.doag.org/en/impressum/'
   termsOfUse:
-    de: https://bigdata.doag.org/de/nutzungsbedingungen/
-    en: https://bigdata.doag.org/en/term-of-use/
+    de: 'https://bigdata.doag.org/de/nutzungsbedingungen/'
+    en: 'https://bigdata.doag.org/en/term-of-use/'
   privacy:
-    de: https://bigdata.doag.org/de/datenschutz/
-    en: https://bigdata.doag.org/en/privacy/
+    de: 'https://bigdata.doag.org/de/datenschutz/'
+    en: 'https://bigdata.doag.org/en/privacy/'
   name: Big Data Days 2018
   startDate: 2018-09-20
   endDate: 2018-09-21
@@ -409,24 +409,24 @@
   conference: datenbank
   year: 2019
   talksUri:
-    eventsData: https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=561872
-    speakersData: https://www.javaland.eu/api/referenten_datenbank.php?key=JL-EOPTGB-DR
-    additionalData: https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=561872'
+    speakersData: 'https://www.javaland.eu/api/referenten_datenbank.php?key=JL-EOPTGB-DR'
+    additionalData: 'https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: db-2019-backup.raw
-  url: https://programm.doag.org/${conference}/${year}
-  homeUrl: http://datenbank.doag.org/
+  url: 'https://programm.doag.org/${conference}/${year}'
+  homeUrl: 'http://datenbank.doag.org/'
   imprint:
-    de: https://datenbank.doag.org/de/impressum/
+    de: 'https://datenbank.doag.org/de/impressum/'
 # missing link
-    en: https://datenbank.doag.org/en/imprint/
+    en: 'https://datenbank.doag.org/en/imprint/'
   termsOfUse:
-    de: https://datenbank.doag.org/de/nutzungsbedingungen/
+    de: 'https://datenbank.doag.org/de/nutzungsbedingungen/'
 # missing link
-    en: https://datenbank.doag.org/en/term-of-use/
+    en: 'https://datenbank.doag.org/en/term-of-use/'
   privacy:
-    de: https://datenbank.doag.org/de/datenschutz/
+    de: 'https://datenbank.doag.org/de/datenschutz/'
 # missing link
-    en: https://datenbank.doag.org/en/privacy/
+    en: 'https://datenbank.doag.org/en/privacy/'
   name: DOAG 2019 Datenbank
   startDate: 2019-06-03
   endDate: 2019-06-04
@@ -447,22 +447,22 @@
   conference: apex
   year: 2019
   talksUri:
-    eventsData: https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=562284
-    speakersData: https://www.javaland.eu/api/referenten_apex.php?key=JL-EOPTGB-DR
-    additionalData: https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=562284'
+    speakersData: 'https://www.javaland.eu/api/referenten_apex.php?key=JL-EOPTGB-DR'
+    additionalData: 'https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: apex-2019-backup.raw
-  url: http://${conference}.dukecon.org/${year}
-  homeUrl: http://apex.doag.org/
+  url: 'http://${conference}.dukecon.org/${year}'
+  homeUrl: 'http://apex.doag.org/'
   imprint:
-    de: https://apex.doag.org/de/impressum/
+    de: 'https://apex.doag.org/de/impressum/'
 # use imprint? both get 404 response 2017-05-27
-    en: https://apex.doag.org/en/impressum/
+    en: 'https://apex.doag.org/en/impressum/'
   termsOfUse:
-    de: https://apex.doag.org/de/nutzungsbedingungen/
-    en: https://apex.doag.org/en/term-of-use/
+    de: 'https://apex.doag.org/de/nutzungsbedingungen/'
+    en: 'https://apex.doag.org/en/term-of-use/'
   privacy:
-    de: https://apex.doag.org/de/datenschutz/
-    en: https://apex.doag.org/en/privacy/
+    de: 'https://apex.doag.org/de/datenschutz/'
+    en: 'https://apex.doag.org/en/privacy/'
   name: APEX Connect 2019
   startDate: 2019-05-07
   endDate: 2019-05-09
@@ -483,24 +483,24 @@
   conference: analytics
   year: 2019
   talksUri:
-    eventsData: https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=562503
-    speakersData: https://www.javaland.eu/api/referenten_dataanalytics.php?key=JL-EOPTGB-DR
-    additionalData: https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=562503'
+    speakersData: 'https://www.javaland.eu/api/referenten_dataanalytics.php?key=JL-EOPTGB-DR'
+    additionalData: 'https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: analytics-2019-backup.raw
-  url: https://programm.doag.org/${conference}/${year}
-  homeUrl: http://analytics.doag.org/
+  url: 'https://programm.doag.org/${conference}/${year}'
+  homeUrl: 'http://analytics.doag.org/'
   imprint:
-    de: https://analytics2017.doag.org/de/impressum/
+    de: 'https://analytics2017.doag.org/de/impressum/'
 # missing link
-    en: https://analytics2017.doag.org/en/imprint/
+    en: 'https://analytics2017.doag.org/en/imprint/'
   termsOfUse:
-    de: https://analytics2017.doag.org/de/nutzungsbedingungen/
+    de: 'https://analytics2017.doag.org/de/nutzungsbedingungen/'
 # missing link
-    en: https://analytics2017.doag.org/en/term-of-use/
+    en: 'https://analytics2017.doag.org/en/term-of-use/'
   privacy:
-    de: https://analytics2017.doag.org/de/datenschutz/
+    de: 'https://analytics2017.doag.org/de/datenschutz/'
 # missing link
-    en: https://analytics2017.doag.org/en/privacy/
+    en: 'https://analytics2017.doag.org/en/privacy/'
   name: DATA ANALYTICS 2019
   startDate: 2019-03-26
   endDate: 2019-03-27

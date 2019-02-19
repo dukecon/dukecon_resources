@@ -7,22 +7,22 @@
   talksUri:
     eventsData: aceu16/events.json
     # TODO: Sched Extractor should use eventsData / conferenceData
-#    conferenceData: https://${conferenceId}.sched.org/api/site/sync?api_key=${conferenceApiKey}
-#    eventsData: https://${conferenceId}.sched.org/api/session/list?api_key=${conferenceApiKey}&custom_data=Y&format=json
+#    conferenceData: 'https://${conferenceId}.sched.org/api/site/sync?api_key=${conferenceApiKey}'
+#    eventsData: 'https://${conferenceId}.sched.org/api/session/list?api_key=${conferenceApiKey}&custom_data=Y&format=json'
   backupUri: apacheconeu2016-2017-backup.raw
 #  talksUri: apacheconeu2016-2017.raw
-  url: http://apachecon.dukecon.org/${year}
+  url: 'http://apachecon.dukecon.org/${year}'
   homeUrl: apacheconeu2016.sched.org
   # TODO Fix these URLs
   imprint:
-    de: https://./de/impressum/
-    en: https://./en/imprint/
+    de: 'https://./de/impressum/'
+    en: 'https://./en/imprint/'
   termsOfUse:
-    de: https://./de/nutzungsbedingungen/
-    en: https://./en/terms-of-use/
+    de: 'https://./de/nutzungsbedingungen/'
+    en: 'https://./en/terms-of-use/'
   privacy:
-    de: https://./de/datenschutz/
-    en: https://./en/privacy/
+    de: 'https://./de/datenschutz/'
+    en: 'https://./en/privacy/'
   name: ApacheCon Europe 2016
   startDate: 2016-11-16
   endDate: 2016-11-18

@@ -6,14 +6,14 @@
   talksUri:
     eventsData: acna18/events.json
   backupUri: apachecon-na-2018.json
-  url: http://apachecon-na.dukecon.org/${year}
-  homeUrl: http://apachecon.com/
+  url: 'http://apachecon-na.dukecon.org/${year}'
+  homeUrl: 'http://apachecon.com/'
   imprint:
-    en: http://apachecon.com/acna18/index.html
+    en: 'http://apachecon.com/acna18/index.html'
   termsOfUse:
-    en: http://apachecon.com/acna18/index.html
+    en: 'http://apachecon.com/acna18/index.html'
   privacy:
-    en: http://apachecon.com/acna18/index.html
+    en: 'http://apachecon.com/acna18/index.html'
   name: ACNA 2018
   startDate: 2018-09-24
   endDate: 2018-09-29
