@@ -55,7 +55,6 @@ class AllConferences {
             def getRC = get.getResponseCode()
             if(getRC.equals(200)) {
                 targetFile.write(get.getInputStream().getText("Windows-1252"), "Windows-1252")
-//                targetFile.write(get.getInputStream().getText(StandardCharsets.ISO_8859_1.displayName()), StandardCharsets.UTF_8.displayName())
             } else {
                 log.error ("Could not retrieve '{}': {}", url, getRC)
             }
@@ -82,7 +81,7 @@ class AllConferences {
         log.debug ("Dumping conferences to '{}'", confFile)
         StringWriter yamlContents = new StringWriter()
         yaml.dump(conferences, yamlContents)
-        confFile.write("# This file is generate automatically - DO NOT EDIT\n" + yamlContents.toString())
+        confFile.write("# This file is generate automatically - DO NOT EDIT\n# ${new Date()}\n" + yamlContents.toString())
     }
 
     public void generateDockerfile (targetDirname = generatedDirBase) {
