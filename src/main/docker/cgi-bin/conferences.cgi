@@ -20,7 +20,9 @@ my $host = $ENV{HTTP_X_FORWARDED_HOST} || $ENV{HTTP_HOST};
 my $baseUrl = "$ENV{REQUEST_SCHEME}://${host}";
 
 while (my $line = $template->getline()) {
-    $line =~ s/CONFERENCES_BASE_URL/${baseUrl}/o;
+    # Hack to make a string out of the URL - otherwise (Snake) YAML parsers (on Java side) will fail to read it
+    $line =~ s# CONFERENCES_BASE_URL/(.+),$# '${baseUrl}/$1',#o;
+    $line =~ s# CONFERENCES_BASE_URL/(.+)$# '${baseUrl}/$1'#o;
     print $line;
 }
 
