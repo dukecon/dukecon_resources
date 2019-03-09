@@ -141,3 +141,6 @@
     reverse: '#fff'
     highlight: '#ddee55'
     alternate: '#bf5a00'
+  feedbackServer:
+    active: true
+    timeSlotVisible: 10080
