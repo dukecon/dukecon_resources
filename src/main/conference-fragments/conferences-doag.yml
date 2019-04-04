@@ -411,6 +411,7 @@
   talksUri:
     eventsData: https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=561872
     speakersData: https://www.javaland.eu/api/referenten_datenbank.php?key=JL-EOPTGB-DR
+    additionalData: https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw
   backupUri: db-2019-backup.raw
   url: https://programm.doag.org/${conference}/${year}
   homeUrl: http://datenbank.doag.org/
@@ -448,6 +449,7 @@
   talksUri:
     eventsData: https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=562284
     speakersData: https://www.javaland.eu/api/referenten_apex.php?key=JL-EOPTGB-DR
+    additionalData: https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw
   backupUri: apex-2019-backup.raw
   url: http://${conference}.dukecon.org/${year}
   homeUrl: http://apex.doag.org/
@@ -483,6 +485,7 @@
   talksUri:
     eventsData: https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=562503
     speakersData: https://www.javaland.eu/api/referenten_dataanalytics.php?key=JL-EOPTGB-DR
+    additionalData: https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw
   backupUri: analytics-2019-backup.raw
   url: https://programm.doag.org/${conference}/${year}
   homeUrl: http://analytics.doag.org/
