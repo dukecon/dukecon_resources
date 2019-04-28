@@ -1,0 +1,4 @@
+= DukeCon Resources
+
+* cf. link:src/main/asciidoc/index.adoc[] for contents here
+* Published documentation: https://dev.dukecon.org/jenkins/job/dukecon_resources/job/develop/Documentation/[]
