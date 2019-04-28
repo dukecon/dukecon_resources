@@ -13,9 +13,9 @@ pipeline {
     }
 
     stages {
-        stage('Clean / Build / Deploy (on master)') {
+        stage('Clean / Build / Deploy (on develop)') {
             when {
-                branch 'master'
+                branch 'develop'
             }
             steps {
                 withMaven {
