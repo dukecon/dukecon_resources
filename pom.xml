@@ -62,15 +62,15 @@
         <asciidoctorj.diagram.version>1.5.16</asciidoctorj.diagram.version>
         <docker-maven-plugin.version>0.28.0</docker-maven-plugin.version>
         <exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
-        <groovy-eclipse-batch.version>2.5.5-01</groovy-eclipse-batch.version>
-        <groovy-eclipse-compiler.version>2.9.3-01</groovy-eclipse-compiler.version>
         <groovy-all.version>2.5.5</groovy-all.version>
+        <groovy-eclipse-batch.version>2.5.6-02</groovy-eclipse-batch.version>
+        <groovy-eclipse-compiler.version>3.3.0-01</groovy-eclipse-compiler.version>
         <lombok.version>1.18.2</lombok.version>
         <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
         <merge-maven-plugin.version>0.0.3</merge-maven-plugin.version>
         <slf4j-simple.version>1.7.25</slf4j-simple.version>
-        <snakeyaml.version>1.23</snakeyaml.version>
+        <snakeyaml.version>1.24</snakeyaml.version>
 
         <!-- Check automatic versions from time to time! -->
     </properties>
