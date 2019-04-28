@@ -1,4 +1,6 @@
 = DukeCon Resources
+:author: Gerd Aschemann <gerd@aschemann.net>
+:icons: font
 
 This project contains
 
