@@ -20,6 +20,7 @@ pipeline {
             steps {
                 withMaven {
                     sh 'mvn clean deploy -Pdocker docker:push'
+                    build 'docker_restart_conference-archive'
                 }
             }
         }
