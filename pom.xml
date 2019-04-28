@@ -57,6 +57,9 @@
         <uptime-max>10000</uptime-max>
 
         <!-- Plugin and Dependency versions - keep them in alphabetical order -->
+        <asciidoctor.maven.plugin.version>2.0.0-RC.1</asciidoctor.maven.plugin.version>
+        <asciidoctorj.version>2.0.0</asciidoctorj.version>
+        <asciidoctorj.diagram.version>1.5.16</asciidoctorj.diagram.version>
         <docker-maven-plugin.version>0.28.0</docker-maven-plugin.version>
         <exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
         <groovy-eclipse-batch.version>2.5.5-01</groovy-eclipse-batch.version>
@@ -160,6 +163,43 @@
         <pluginManagement>
             <plugins>
                 <plugin>
+                    <groupId>org.asciidoctor</groupId>
+                    <artifactId>asciidoctor-maven-plugin</artifactId>
+                    <version>${asciidoctor.maven.plugin.version}</version>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.asciidoctor</groupId>
+                            <artifactId>asciidoctorj</artifactId>
+                            <version>${asciidoctorj.version}</version>
+                        </dependency>
+                        <dependency>
+                            <groupId>org.asciidoctor</groupId>
+                            <artifactId>asciidoctorj-diagram</artifactId>
+                            <version>${asciidoctorj.diagram.version}</version>
+                        </dependency>
+                    </dependencies>
+                    <configuration>
+                        <requires>
+                            <require>asciidoctor-diagram</require>
+                        </requires>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>generate-html-doc</id>
+                            <phase>generate-resources</phase>
+                            <goals>
+                                <goal>process-asciidoc</goal>
+                            </goals>
+                            <configuration>
+                                <backend>html5</backend>
+                                <sourceDirectory>${basedir}/src/main/asciidoc/</sourceDirectory>
+                                <outputDirectory>${project.build.directory}/generated-docs/</outputDirectory>
+                                <sourceDocumentName>index.adoc</sourceDocumentName>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+                <plugin>
                     <groupId>org.zcore.maven</groupId>
                     <artifactId>merge-maven-plugin</artifactId>
                     <version>${merge-maven-plugin.version}</version>
@@ -194,6 +234,10 @@
                     <!--<version>${lombok.version}</version>-->
                     <!--</dependency>-->
                 </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.asciidoctor</groupId>
+                <artifactId>asciidoctor-maven-plugin</artifactId>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.groovy</groupId>

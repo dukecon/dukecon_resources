@@ -34,6 +34,16 @@ pipeline {
                 }
             }
         }
+        stage('Publish documentation') {
+            steps {
+                publishHTML target: [allowMissing         : false,
+                                     alwaysLinkToLastBuild: false,
+                                     keepAll              : true,
+                                     reportDir            : 'target/generated-docs/',
+                                     reportFiles          : 'index.html',
+                                     reportName           : 'Documentation']
+            }
+        }
     }
     post {
         always {

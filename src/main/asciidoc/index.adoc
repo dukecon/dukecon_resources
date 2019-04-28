@@ -30,7 +30,7 @@ Currently the project only contains misc. fragments of DukeCon `conference.yml` 
 [source,yaml]
 .DukeCon JavaLand conference configuration (extract)
 ----
-include::src/main/conference-fragments/conferences-javaland.yml[lines=1..15]
+include::../conference-fragments/conferences-javaland.yml[lines=1..15]
 ...
 ----
 
