@@ -475,6 +475,9 @@
     reverse: '#fff'
     highlight: '#bed7eb'
     alternate: '#bf5a00'
+  feedbackServer:
+    active: true
+    timeSlotVisible: 10080
 -
   id: analytics2019
   internalId: 562503
