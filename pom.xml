@@ -262,7 +262,6 @@
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland.yml</source>
                                         <source>src/main/conference-fragments/conferences-doag.yml</source>
-                                        <source>src/main/conference-fragments/conferences-jfs.yml</source>
                                     </sources>
                                 </merger>
                                 <merger>
@@ -293,7 +292,6 @@
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland.yml</source>
                                         <source>src/main/conference-fragments/conferences-doag.yml</source>
-                                        <source>src/main/conference-fragments/conferences-apachecon-selfhosted.yml</source>
                                     </sources>
                                 </merger>
                                 <merger>
@@ -302,10 +300,7 @@
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland.yml</source>
                                         <source>src/main/conference-fragments/conferences-doag.yml</source>
-                                        <source>src/main/conference-fragments/conferences-jfs.yml</source>
-                                        <source>src/main/conference-fragments/conferences-herbstcampus.yml</source>
                                         <source>src/main/conference-fragments/conferences-apachecon-sched.yml</source>
-                                        <source>src/main/conference-fragments/conferences-apachecon-selfhosted.yml</source>
                                     </sources>
                                 </merger>
                                 <merger>
@@ -352,9 +347,6 @@
                                                 <source>src/main/conference-fragments/conferences-header.yml</source>
                                                 <source>src/main/conference-fragments/conferences-javaland.yml</source>
                                                 <source>src/main/conference-fragments/conferences-doag.yml</source>
-                                                <source>src/main/conference-fragments/conferences-jfs.yml</source>
-                                                <source>src/main/conference-fragments/conferences-herbstcampus.yml</source>
-                                                <source>src/main/conference-fragments/conferences-apachecon-NONPUBLIC.yml</source>
                                             </sources>
                                         </merger>
                                     </mergers>
