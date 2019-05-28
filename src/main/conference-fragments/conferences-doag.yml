@@ -441,6 +441,9 @@
     reverse: '#eee'
     highlight: '#eee'
     alternate: '#bf5a00'
+  feedbackServer:
+    active: true
+    timeSlotVisible: 40320
 -
   id: apex2019
   internalId: 562284
@@ -479,7 +482,7 @@
     alternate: '#bf5a00'
   feedbackServer:
     active: true
-    timeSlotVisible: 10080
+    timeSlotVisible: 40320
 -
   id: analytics2019
   internalId: 562503
