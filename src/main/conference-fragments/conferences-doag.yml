@@ -586,7 +586,7 @@
     de: 'https://godevops.doag.org/de/datenschutz/'
 # missing link
     en: 'https://godevops.doag.org/en/privacy/'
-  name: GODevops 2019 Logistik
+  name: GODevops 2019
   startDate: 2019-09-02
   endDate: 2019-09-03
   authEnabled: true
