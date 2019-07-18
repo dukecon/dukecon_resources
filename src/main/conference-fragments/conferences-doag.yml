@@ -586,7 +586,7 @@
     de: 'https://godevops.doag.org/de/datenschutz/'
 # missing link
     en: 'https://godevops.doag.org/en/privacy/'
-  name: GODevops 2019 Logistik
+  name: GODevops 2019
   startDate: 2019-09-02
   endDate: 2019-09-03
   authEnabled: true
@@ -603,5 +603,45 @@
   feedbackServer:
     active: true
     timeSlotVisible: 40320
+-
+  id: doag2019
+  internalId: 574722
+  conference: doag
+  year: 2019
+  talksUri:
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=574722'
+    speakersData: 'https://www.javaland.eu/api/referenten_ka.php?key=JL-EOPTGB-DR'
+    additionalData: 'https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+  backupUri: kua-2019-backup.raw
+  url: 'https://${conference}.dukecon.org/${year}'
+  homeUrl: 'https://2019.doag.org/'
+  imprint:
+    de: 'https://2019.doag.org/de/impressum/'
+    en: 'https://2019.doag.org/en/impressum/'
+  termsOfUse:
+    de: 'https://2019.doag.org/de/nutzungsbedingungen/'
+    en: 'https://2019.doag.org/en/term-of-use/'
+  privacy:
+    de: 'https://2019.doag.org/de/datenschutz/'
+    en: 'https://2019.doag.org/en/privacy/'
+  name: DOAG Konferenz + Ausstellung 2019
+  startDate: 2019-11-19
+  endDate: 2019-11-22
+  authEnabled: true
+  extractorClass: org.dukecon.server.repositories.doag.DoagDataExtractor
+  rawDataMapperClass: org.dukecon.server.repositories.doag.DoagJsonMapper
+  feedbackServer:
+    active: false
+    timeSlotVisible: 40320
+  styles:
+    dark: '#287abe'
+    darkLink: '#287abe'
+    hover: '#00c3d7'
+    hoverLink: '#00c3d7'
+    reverse: '#fff'
+    highlight: '#bed7eb'
+    alternate: '#bf5a00'
+
+
 
 
