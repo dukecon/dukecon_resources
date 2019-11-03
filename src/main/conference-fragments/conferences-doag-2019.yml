@@ -1,0 +1,238 @@
+# DukeCon conference configuration for DOAG conferences in 2019 (Apex, DOAG, Datavision etc.) - please leave them in lexicographical order by ID
+-
+  id: analytics2019
+  internalId: 562503
+  conference: analytics
+  year: 2019
+  talksUri:
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=562503'
+    speakersData: 'https://www.javaland.eu/api/referenten_dataanalytics.php?key=JL-EOPTGB-DR'
+    additionalData: 'https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+  backupUri: analytics-2019-backup.raw
+  url: 'https://programm.doag.org/${conference}/${year}'
+  homeUrl: 'http://analytics.doag.org/'
+  imprint:
+    de: 'https://analytics2017.doag.org/de/impressum/'
+    # missing link
+    en: 'https://analytics2017.doag.org/en/imprint/'
+  termsOfUse:
+    de: 'https://analytics2017.doag.org/de/nutzungsbedingungen/'
+    # missing link
+    en: 'https://analytics2017.doag.org/en/term-of-use/'
+  privacy:
+    de: 'https://analytics2017.doag.org/de/datenschutz/'
+    # missing link
+    en: 'https://analytics2017.doag.org/en/privacy/'
+  name: DATA ANALYTICS 2019
+  startDate: 2019-03-26
+  endDate: 2019-03-27
+  authEnabled: true
+  extractorClass: org.dukecon.server.repositories.doag.DoagDataExtractor
+  rawDataMapperClass: org.dukecon.server.repositories.doag.DoagJsonMapper
+  styles:
+    dark: '#c5c5c5'
+    darkLink: '#000000'
+    hover: '#e30613'
+    hoverLink: '#e30613'
+    reverse: '#eee'
+    highlight: '#eee'
+    alternate: '#bf5a00'
+-
+  id: apex2019
+  internalId: 562284
+  conference: apex
+  year: 2019
+  talksUri:
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=562284'
+    speakersData: 'https://www.javaland.eu/api/referenten_apex.php?key=JL-EOPTGB-DR'
+    additionalData: 'https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+  backupUri: apex-2019-backup.raw
+  url: 'http://${conference}.dukecon.org/${year}'
+  homeUrl: 'http://apex.doag.org/'
+  imprint:
+    de: 'https://apex.doag.org/de/impressum/'
+    # use imprint? both get 404 response 2017-05-27
+    en: 'https://apex.doag.org/en/impressum/'
+  termsOfUse:
+    de: 'https://apex.doag.org/de/nutzungsbedingungen/'
+    en: 'https://apex.doag.org/en/term-of-use/'
+  privacy:
+    de: 'https://apex.doag.org/de/datenschutz/'
+    en: 'https://apex.doag.org/en/privacy/'
+  name: APEX Connect 2019
+  startDate: 2019-05-07
+  endDate: 2019-05-09
+  authEnabled: true
+  extractorClass: org.dukecon.server.repositories.doag.DoagDataExtractor
+  rawDataMapperClass: org.dukecon.server.repositories.doag.DoagJsonMapper
+  styles:
+    dark: '#287abe'
+    darkLink: '#287abe'
+    hover: '#00c3d7'
+    hoverLink: '#00c3d7'
+    reverse: '#fff'
+    highlight: '#bed7eb'
+    alternate: '#bf5a00'
+  feedbackServer:
+    active: true
+    timeSlotVisible: 40320
+-
+  id: datenbank2019
+  internalId: 561872
+  conference: datenbank
+  year: 2019
+  talksUri:
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=561872'
+    speakersData: 'https://www.javaland.eu/api/referenten_datenbank.php?key=JL-EOPTGB-DR'
+    additionalData: 'https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+  backupUri: db-2019-backup.raw
+  url: 'https://programm.doag.org/${conference}/${year}'
+  homeUrl: 'http://datenbank.doag.org/'
+  imprint:
+    de: 'https://datenbank.doag.org/de/impressum/'
+# missing link
+    en: 'https://datenbank.doag.org/en/imprint/'
+  termsOfUse:
+    de: 'https://datenbank.doag.org/de/nutzungsbedingungen/'
+# missing link
+    en: 'https://datenbank.doag.org/en/term-of-use/'
+  privacy:
+    de: 'https://datenbank.doag.org/de/datenschutz/'
+# missing link
+    en: 'https://datenbank.doag.org/en/privacy/'
+  name: DOAG 2019 Datenbank
+  startDate: 2019-06-03
+  endDate: 2019-06-04
+  authEnabled: true
+  extractorClass: org.dukecon.server.repositories.doag.DoagDataExtractor
+  rawDataMapperClass: org.dukecon.server.repositories.doag.DoagJsonMapper
+  styles:
+    dark: '#c5c5c5'
+    darkLink: '#000000'
+    hover: '#e30613'
+    hoverLink: '#e30613'
+    reverse: '#eee'
+    highlight: '#eee'
+    alternate: '#bf5a00'
+  feedbackServer:
+    active: true
+    timeSlotVisible: 40320
+-
+  id: doag2019
+  internalId: 574722
+  conference: doag
+  year: 2019
+  talksUri:
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=574722'
+    speakersData: 'https://www.javaland.eu/api/referenten_ka.php?key=JL-EOPTGB-DR'
+    additionalData: 'https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+  backupUri: kua-2019-backup.raw
+  url: 'https://${conference}.dukecon.org/${year}'
+  homeUrl: 'https://2019.doag.org/'
+  imprint:
+    de: 'https://2019.doag.org/de/impressum/'
+    en: 'https://2019.doag.org/en/impressum/'
+  termsOfUse:
+    de: 'https://2019.doag.org/de/nutzungsbedingungen/'
+    en: 'https://2019.doag.org/en/term-of-use/'
+  privacy:
+    de: 'https://2019.doag.org/de/datenschutz/'
+    en: 'https://2019.doag.org/en/privacy/'
+  name: DOAG Konferenz + Ausstellung 2019
+  startDate: 2019-11-19
+  endDate: 2019-11-22
+  authEnabled: true
+  extractorClass: org.dukecon.server.repositories.doag.DoagDataExtractor
+  rawDataMapperClass: org.dukecon.server.repositories.doag.DoagJsonMapper
+  feedbackServer:
+    active: false
+    timeSlotVisible: 40320
+  styles:
+    dark: '#287abe'
+    darkLink: '#287abe'
+    hover: '#00c3d7'
+    hoverLink: '#00c3d7'
+    reverse: '#fff'
+    highlight: '#bed7eb'
+    alternate: '#bf5a00'
+-
+  id: logistik2019
+  internalId: 581455
+  conference: logistik
+  year: 2019
+  talksUri:
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=581455'
+    speakersData: 'https://www.javaland.eu/api/referenten_logistik.php?key=JL-EOPTGB-DR'
+    additionalData: 'https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+  backupUri: logistik-2019-backup.raw
+  url: 'https://programm.doag.org/${conference}/${year}'
+  homeUrl: 'https://logistik.doag.org/'
+  imprint:
+    de: 'https://logistik.doag.org/de/impressum/'
+# missing link
+    en: 'https://logistik.doag.org/en/imprint/'
+  termsOfUse:
+    de: 'https://logistik.doag.org/de/nutzungsbedingungen/'
+# missing link
+    en: 'https://logistik.doag.org/en/term-of-use/'
+  privacy:
+    de: 'https://logistik.doag.org/de/datenschutz/'
+# missing link
+    en: 'https://logistik.doag.org/en/privacy/'
+  name: DOAG 2019 Logistik
+  startDate: 2019-09-17
+  endDate: 2019-09-17
+  authEnabled: true
+  extractorClass: org.dukecon.server.repositories.doag.DoagDataExtractor
+  rawDataMapperClass: org.dukecon.server.repositories.doag.DoagJsonMapper
+  styles:
+    dark: '#c5c5c5'
+    darkLink: '#000000'
+    hover: '#e30613'
+    hoverLink: '#e30613'
+    reverse: '#eee'
+    highlight: '#eee'
+    alternate: '#bf5a00'
+  feedbackServer:
+    active: true
+    timeSlotVisible: 40320
+- id: godevops2019
+  internalId: 581105
+  conference: godevops
+  year: 2019
+  talksUri:
+    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=581105'
+    speakersData: 'https://www.javaland.eu/api/referenten_godevops.php?key=JL-EOPTGB-DR'
+    additionalData: 'https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+  backupUri: godevops-2019-backup.raw
+  url: 'https://programm.doag.org/${conference}/${year}'
+  homeUrl: 'https://godevops.doag.org/'
+  imprint:
+    de: 'https://godevops.doag.org/de/impressum/'
+    # missing link
+    en: 'https://godevops.doag.org/en/imprint/'
+  termsOfUse:
+    de: 'https://godevops.doag.org/de/nutzungsbedingungen-agb/'
+    # missing link
+    en: 'https://godevops.doag.org/en/term-of-use/'
+  privacy:
+    de: 'https://godevops.doag.org/de/datenschutz/'
+    # missing link
+    en: 'https://godevops.doag.org/en/privacy/'
+  name: GODevops 2019
+  startDate: 2019-09-02
+  endDate: 2019-09-03
+  authEnabled: true
+  extractorClass: org.dukecon.server.repositories.doag.DoagDataExtractor
+  rawDataMapperClass: org.dukecon.server.repositories.doag.DoagJsonMapper
+  styles:
+    dark: '#c5c5c5'
+    darkLink: '#000000'
+    hover: '#e30613'
+    hoverLink: '#e30613'
+    reverse: '#eee'
+    highlight: '#eee'
+    alternate: '#bf5a00'
+  feedbackServer:
+    active: true
+    timeSlotVisible: 40320
