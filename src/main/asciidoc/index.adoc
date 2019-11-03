@@ -92,9 +92,11 @@ link:target/classes/conferences-stable.yml[`conferences-stable.yml`]::
 
 The following Maven profiles can be used to generate particular fragments which are combined to the final file(s)
 
-`generate-all-nonpublic` (automatically selected on host `dukecon0`):: Used to generate a conferences file containing configurations for all conferences with
-publicly and non publicly available data sources (e.g. ApacheCon). The fragments of the non-public data sources then
-must be available locally to perform a valid build.
+`generate-current-ijug+doag` (automatically selected on host `dukecon0`):: Used to generate a conferences file containing configurations for all conferences with
+publicly available data sources (e.g. Javaland and DOAG conferences).
+
+`generate-all-public`:: Used to generate a conferences file containing configurations for all conferences with
+publicly available data sources (e.g. Javaland and DOAG conferences).
 
 `generate-apachecon` (automatically selected on host `apachecon0`):: Generate conference configuration for ApacheCon (_hint_: This will only work if you have the
 non-publicly available conference configuration fragment for ApacheCon present locally).

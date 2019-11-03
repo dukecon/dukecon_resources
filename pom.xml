@@ -359,7 +359,7 @@
 
     <profiles>
         <profile>
-            <id>generate-all-nonpublic</id>
+            <id>generate-current-ijug+doag</id>
             <activation>
                 <property>
                     <name>env.HOSTNAME</name>
@@ -373,7 +373,40 @@
                         <artifactId>merge-maven-plugin</artifactId>
                         <executions>
                             <execution>
-                                <id>merge-all-nonpublic</id>
+                                <id>merge-current-ijug+doag</id>
+                                <phase>process-resources</phase>
+                                <goals>
+                                    <goal>merge</goal>
+                                </goals>
+                                <configuration>
+                                    <mergers>
+                                        <merger>
+                                            <target>${project.build.outputDirectory}/conferences.yml</target>
+                                            <sources>
+                                                <source>src/main/conference-fragments/conferences-header.yml</source>
+                                                <source>src/main/conference-fragments/conferences-javaland-2019.yml</source>
+                                                <source>src/main/conference-fragments/conferences-javaland-2020.yml</source>
+                                                <source>src/main/conference-fragments/conferences-doag-2019.yml</source>
+                                            </sources>
+                                        </merger>
+                                    </mergers>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>generate-all-public</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.zcore.maven</groupId>
+                        <artifactId>merge-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>merge-all-public</id>
                                 <phase>process-resources</phase>
                                 <goals>
                                     <goal>merge</goal>
