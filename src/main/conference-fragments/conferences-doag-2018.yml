@@ -5,8 +5,8 @@
   conference: analytics
   year: 2018
   talksUri:
-    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=552788'
-    speakersData: 'https://www.javaland.eu/api/referenten_bigdata.php?key=JL-EOPTGB-DR'
+    eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=552788'
+    speakersData: 'https://www.doag.org/api/referenten_bigdata.php?key=JL-EOPTGB-DR'
   backupUri: analytics-2018-backup.raw
   url: 'https://programm.doag.org/${conference}/${year}'
   homeUrl: 'http://analytics.doag.org/'
@@ -42,8 +42,8 @@
   conference: apex
   year: 2018
   talksUri:
-    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=543336'
-    speakersData: 'https://www.javaland.eu/api/referenten_apex.php?key=JL-EOPTGB-DR'
+    eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=543336'
+    speakersData: 'https://www.doag.org/api/referenten_apex.php?key=JL-EOPTGB-DR'
   backupUri: apex-2018-backup.raw
   url: 'http://${conference}.dukecon.org/${year}'
   homeUrl: 'http://apex.doag.org/'
@@ -77,9 +77,9 @@
   conference: bigdata
   year: 2018
   talksUri:
-    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=561752'
-    speakersData: 'https://www.javaland.eu/api/referenten_bigdata.php?key=JL-EOPTGB-DR'
-    additionalData: 'https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+    eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=561752'
+    speakersData: 'https://www.doag.org/api/referenten_bigdata.php?key=JL-EOPTGB-DR'
+    additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: bigdata-2018-backup.raw
   url: 'https://${conference}.dukecon.org/${year}'
   homeUrl: 'https://bigdata.doag.org/'
@@ -115,8 +115,8 @@
   conference: datenbank
   year: 2018
   talksUri:
-    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=550377'
-    speakersData: 'https://www.javaland.eu/api/referenten_datenbank.php?key=JL-EOPTGB-DR'
+    eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=550377'
+    speakersData: 'https://www.doag.org/api/referenten_datenbank.php?key=JL-EOPTGB-DR'
   backupUri: db-2018-backup.raw
   url: 'https://programm.doag.org/${conference}/${year}'
   homeUrl: 'http://datenbank.doag.org/'
@@ -152,9 +152,9 @@
   conference: doag
   year: 2018
   talksUri:
-    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=554070'
-    speakersData: 'https://www.javaland.eu/api/referenten.php?key=JL-EOPTGB-DR'
-    additionalData: 'https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+    eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=554070'
+    speakersData: 'https://www.doag.org/api/referenten.php?key=JL-EOPTGB-DR'
+    additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: doag-2018-backup.raw
   url: 'https://programm.doag.org/${conference}/${year}'
   homeUrl: 'http://2018.doag.org/'
@@ -190,8 +190,8 @@
   conference: exadata
   year: 2018
   talksUri:
-    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=551371'
-    speakersData: 'https://www.javaland.eu/api/referenten_exadata.php?key=JL-EOPTGB-DR'
+    eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=551371'
+    speakersData: 'https://www.doag.org/api/referenten_exadata.php?key=JL-EOPTGB-DR'
   backupUri: exadata-2018-backup.raw
   url: 'https://programm.doag.org/${conference}/${year}'
   homeUrl: 'https://exadatadatenbank.doag.org/'
@@ -227,9 +227,9 @@
   conference: ka
   year: 2018
   talksUri:
-    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=554070'
-    speakersData: 'https://www.javaland.eu/api/referenten_ka.php?key=JL-EOPTGB-DR'
-    additionalData: 'https://www.javaland.eu/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+    eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=554070'
+    speakersData: 'https://www.doag.org/api/referenten_ka.php?key=JL-EOPTGB-DR'
+    additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: kua-2018-backup.raw
   url: 'https://${conference}.dukecon.org/${year}'
   homeUrl: 'https://2018.doag.org/'
@@ -265,8 +265,8 @@
   conference: logistik
   year: 2018
   talksUri:
-    eventsData: 'https://www.javaland.eu/api/schedule/programm/jl.php?key=TestJL&id=555289'
-    speakersData: 'https://www.javaland.eu/api/referenten_logistik.php?key=JL-EOPTGB-DR'
+    eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=555289'
+    speakersData: 'https://www.doag.org/api/referenten_logistik.php?key=JL-EOPTGB-DR'
   backupUri: logistik-2018-backup.raw
   url: 'https://programm.doag.org/${conference}/${year}'
   homeUrl: 'https://logistik.doag.org/'
