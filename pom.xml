@@ -260,7 +260,8 @@
                                     <target>${project.build.outputDirectory}/conferences-ijug+doag.yml</target>
                                     <sources>
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
-                                        <source>src/main/conference-fragments/conferences-javaland-2016.yml</source>
+                                        <!-- Re-integrate Javaland 2016 when implementing https://github.com/dukecon/dukecon_resources/issues/4 -->
+                                        <!-- <source>src/main/conference-fragments/conferences-javaland-2016.yml</source> -->
                                         <source>src/main/conference-fragments/conferences-javaland-2017.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland-2018.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland-2019.yml</source>
@@ -275,7 +276,8 @@
                                     <target>${project.build.outputDirectory}/conferences-javaland.yml</target>
                                     <sources>
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
-                                        <source>src/main/conference-fragments/conferences-javaland-2016.yml</source>
+                                        <!-- Re-integrate Javaland 2016 when implementing https://github.com/dukecon/dukecon_resources/issues/4 -->
+                                        <!-- <source>src/main/conference-fragments/conferences-javaland-2016.yml</source> -->
                                         <source>src/main/conference-fragments/conferences-javaland-2017.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland-2018.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland-2019.yml</source>
@@ -296,7 +298,8 @@
                                     <target>${project.build.outputDirectory}/conferences-javaland+doag.yml</target>
                                     <sources>
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
-                                        <source>src/main/conference-fragments/conferences-javaland-2016.yml</source>
+                                        <!-- Re-integrate Javaland 2016 when implementing https://github.com/dukecon/dukecon_resources/issues/4 -->
+                                        <!-- <source>src/main/conference-fragments/conferences-javaland-2016.yml</source> -->
                                         <source>src/main/conference-fragments/conferences-javaland-2017.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland-2018.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland-2019.yml</source>
@@ -311,7 +314,8 @@
                                     <target>${project.build.outputDirectory}/conferences-stable.yml</target>
                                     <sources>
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
-                                        <source>src/main/conference-fragments/conferences-javaland-2016.yml</source>
+                                        <!-- Re-integrate Javaland 2016 when implementing https://github.com/dukecon/dukecon_resources/issues/4 -->
+                                        <!-- <source>src/main/conference-fragments/conferences-javaland-2016.yml</source> -->
                                         <source>src/main/conference-fragments/conferences-javaland-2017.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland-2018.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland-2019.yml</source>
@@ -326,7 +330,8 @@
                                     <target>${project.build.outputDirectory}/conferences.yml</target>
                                     <sources>
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
-                                        <source>src/main/conference-fragments/conferences-javaland-2016.yml</source>
+                                        <!-- Re-integrate Javaland 2016 when implementing https://github.com/dukecon/dukecon_resources/issues/4 -->
+                                        <!-- <source>src/main/conference-fragments/conferences-javaland-2016.yml</source> -->
                                         <source>src/main/conference-fragments/conferences-javaland-2017.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland-2018.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland-2019.yml</source>
@@ -342,7 +347,8 @@
                                     <target>${project.build.outputDirectory}/conferences.yaml</target>
                                     <sources>
                                         <source>src/main/conference-fragments/conferences-header.yaml</source>
-                                        <source>src/main/conference-fragments/conferences-javaland-2016.yml</source>
+                                        <!-- Re-integrate Javaland 2016 when implementing https://github.com/dukecon/dukecon_resources/issues/4 -->
+                                        <!-- <source>src/main/conference-fragments/conferences-javaland-2016.yml</source> -->
                                         <source>src/main/conference-fragments/conferences-javaland-2017.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland-2018.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland-2019.yml</source>
@@ -417,7 +423,8 @@
                                             <target>${project.build.outputDirectory}/conferences.yml</target>
                                             <sources>
                                                 <source>src/main/conference-fragments/conferences-header.yml</source>
-                                                <source>src/main/conference-fragments/conferences-javaland-2016.yml</source>
+                                                <!-- Re-integrate Javaland 2016 when implementing https://github.com/dukecon/dukecon_resources/issues/4 -->
+                                                <!-- <source>src/main/conference-fragments/conferences-javaland-2016.yml</source> -->
                                                 <source>src/main/conference-fragments/conferences-javaland-2017.yml</source>
                                                 <source>src/main/conference-fragments/conferences-javaland-2018.yml</source>
                                                 <source>src/main/conference-fragments/conferences-javaland-2019.yml</source>
