@@ -1,6 +1,15 @@
 = DukeCon Resources
 :author: Gerd Aschemann <gerd@aschemann.net>
 :icons: font
+:toc: left
+:doctype: book
+:lang: en
+:numbered:
+:sectnumlevels: 5
+:source-highlighter: coderay
+:toc: left
+:toclevels: 5
+
 
 This project contains
 
