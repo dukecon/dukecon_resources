@@ -19,7 +19,7 @@ pipeline {
             }
             steps {
                 withMaven {
-                    sh 'mvn clean deploy -Pdocker docker:push'
+                    sh './mvnw clean deploy -Pdocker docker:push'
                     build 'docker_restart_conference-archive'
                 }
             }
@@ -30,7 +30,7 @@ pipeline {
             }
             steps {
                 withMaven {
-                    sh 'mvn clean verify'
+                    sh './mvnw clean verify'
                 }
             }
         }
