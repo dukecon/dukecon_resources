@@ -5,7 +5,10 @@
   conference: apex
   year: 2017
   talksUri:
-    eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=527880'
+    eventsData: 'http://archive.dukecon.org/data/apex2017/events.json'
+  archived:
+    talksUri:
+      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=527880'
   backupUri: apex-2017-backup.raw
   url: 'http://${conference}.dukecon.org/${year}'
   homeUrl: 'http://apex.doag.org/'
@@ -39,8 +42,12 @@
   conference: doag
   year: 2017
   talksUri:
-    eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=535509'
-    speakersData: 'https://www.doag.org/api/referenten.php?key=JL-EOPTGB-DR'
+    eventsData: 'http://archive.dukecon.org/data/doag2017/events.json'
+    speakersData: 'http://archive.dukecon.org/data/doag2017/speakers.json'
+  archived:
+    talksUri:
+      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=535509'
+      speakersData: 'https://www.doag.org/api/referenten.php?key=JL-EOPTGB-DR'
   backupUri: doag-2017-backup.raw
   url: 'https://programm.doag.org/${conference}/${year}'
   homeUrl: 'http://2017.doag.org/'

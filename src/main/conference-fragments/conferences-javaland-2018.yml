@@ -5,10 +5,14 @@
   conference: javaland
   year: 2018
   talksUri:
-#    eventsData: javaland-2017.raw
-    eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=541512'
-    speakersData: 'https://www.doag.org/api/schedule/JavaLand/referenten.php/?key=JL-EOPTGB-DR'
-    additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+    eventsData: 'http://archive.dukecon.org/data/javaland2018/events.json'
+    speakersData: 'http://archive.dukecon.org/data/javaland2018/speakers.json'
+    additionalData: 'http://archive.dukecon.org/data/javaland2018/additionaldata.json'
+  archived:
+    talksUri:
+      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=541512'
+      speakersData: 'https://www.doag.org/api/schedule/JavaLand/referenten.php/?key=JL-EOPTGB-DR'
+      additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: javaland-2018-backup.raw
   url: 'http://${conference}.dukecon.org/${year}'
   homeUrl: 'http://www.javaland.eu'

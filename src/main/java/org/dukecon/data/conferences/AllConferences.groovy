@@ -39,7 +39,9 @@ class AllConferences {
 
     private void fetchIfHttp (def conference, String uriField, String filename, File targetDir) {
         String url = conference.talksUri[uriField]
-        if (url?.startsWith("http")) {
+        if (url?.startsWith("http://archive.dukecon.org")) {
+            log.info ("Not fetching '{}' since this is the default archive ", url)
+        } else if (url?.startsWith("http")) {
             File dataDir = new File (targetDir, "data")
             dataDir.mkdirs()
             File confDir = new File (dataDir, conference.id)

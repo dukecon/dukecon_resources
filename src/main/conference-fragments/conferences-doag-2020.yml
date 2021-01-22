@@ -5,9 +5,14 @@
   conference: analytics
   year: 2020
   talksUri:
-    eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=589357'
-    speakersData: 'https://www.doag.org/api/referenten_dataanalytics.php?key=JL-EOPTGB-DR'
-    additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+    eventsData: 'http://archive.dukecon.org/data/analytics2020/events.json'
+    speakersData: 'http://archive.dukecon.org/data/analytics2020/speakers.json'
+    additionalData: 'http://archive.dukecon.org/data/analytics2020/additionaldata.json'
+  archived:
+    talksUri:
+      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=589357'
+      speakersData: 'https://www.doag.org/api/referenten_dataanalytics.php?key=JL-EOPTGB-DR'
+      additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: analytics-2020-backup.raw
   url: 'https://programm.doag.org/${conference}/${year}'
   homeUrl: 'http://analytics.doag.org/'
@@ -43,9 +48,14 @@
   conference: apex
   year: 2020
   talksUri:
-    eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=587868'
-    speakersData: 'https://www.doag.org/api/referenten_apex.php?key=JL-EOPTGB-DR'
-    additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+    eventsData: 'http://archive.dukecon.org/data/apex2020/events.json'
+    speakersData: 'http://archive.dukecon.org/data/apex2020/speakers.json'
+    additionalData: 'http://archive.dukecon.org/data/apex2020/additionaldata.json'
+  archived:
+    talksUri:
+      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=587868'
+      speakersData: 'https://www.doag.org/api/referenten_apex.php?key=JL-EOPTGB-DR'
+      additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: apex-2020-backup.raw
   url: 'http://${conference}.dukecon.org/${year}'
   homeUrl: 'http://apex.doag.org/'
@@ -82,9 +92,14 @@
   conference: datenbank
   year: 2020
   talksUri:
-    eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=588157'
-    speakersData: 'https://www.doag.org/api/referenten_datenbank.php?key=JL-EOPTGB-DR'
-    additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+    eventsData: 'http://archive.dukecon.org/data/datenbank2020/events.json'
+    speakersData: 'http://archive.dukecon.org/data/datenbank2020/speakers.json'
+    additionalData: 'http://archive.dukecon.org/data/datenbank2020E/additionaldata.json'
+  archived:
+    talksUri:
+      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=588157'
+      speakersData: 'https://www.doag.org/api/referenten_datenbank.php?key=JL-EOPTGB-DR'
+      additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: db-2020-backup.raw
   url: 'https://programm.doag.org/${conference}/${year}'
   homeUrl: 'http://datenbank.doag.org/'
@@ -123,9 +138,14 @@
   conference: doag
   year: 2020
   talksUri:
-    eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=593619'
-    speakersData: 'https://www.doag.org/api/referenten_ka.php?key=JL-EOPTGB-DR'
-    additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+    eventsData: 'http://archive.dukecon.org/data/doag2020/events.json'
+    speakersData: 'http://archive.dukecon.org/data/doag2020/speakers.json'
+    additionalData: 'http://archive.dukecon.org/data/doag2020/additionaldata.json'
+  archived:
+    talksUri:
+      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=593619'
+      speakersData: 'https://www.doag.org/api/referenten_ka.php?key=JL-EOPTGB-DR'
+      additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: kua-2020-backup.raw
   url: 'https://${conference}.dukecon.org/${year}'
   homeUrl: 'https://2020.doag.org/'
@@ -155,4 +175,3 @@
     reverse: '#fff'
     highlight: '#bed7eb'
     alternate: '#bf5a00'
--
