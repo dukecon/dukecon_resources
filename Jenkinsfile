@@ -35,6 +35,9 @@ pipeline {
             }
         }
         stage('Publish documentation') {
+            when {
+                branch 'develop'
+            }
             steps {
                 publishHTML target: [allowMissing         : false,
                                      alwaysLinkToLastBuild: false,
