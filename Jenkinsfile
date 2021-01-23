@@ -26,7 +26,7 @@ pipeline {
         }
         stage('Clean / Build / Verify (on feature branch(es)') {
             when {
-                branch 'feature/*'
+                branch '(feature/*|renovatebot/*)'
             }
             steps {
                 withMaven {
