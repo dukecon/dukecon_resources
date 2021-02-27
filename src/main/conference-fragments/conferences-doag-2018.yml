@@ -7,10 +7,10 @@
   talksUri:
     eventsData: 'http://archive.dukecon.org/data/analytics2018/events.json'
     speakersData: 'http://archive.dukecon.org/data/analytics2018/speakers.json'
-  archived:
-    talksUri:
-      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=552788'
-      speakersData: 'https://www.doag.org/api/referenten_bigdata.php?key=JL-EOPTGB-DR'
+    #archived:
+    #talksUri:
+    #  eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=552788'
+    #  speakersData: 'https://www.doag.org/api/referenten_bigdata.php?key=JL-EOPTGB-DR'
   backupUri: analytics-2018-backup.raw
   url: 'https://programm.doag.org/${conference}/${year}'
   homeUrl: 'http://analytics.doag.org/'
@@ -48,10 +48,10 @@
   talksUri:
     eventsData: 'http://archive.dukecon.org/data/apex2018/events.json'
     speakersData: 'http://archive.dukecon.org/data/apex2018/speakers.json'
-  archived:
-    talksUri:
-      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=543336'
-      speakersData: 'https://www.doag.org/api/referenten_apex.php?key=JL-EOPTGB-DR'
+    #archived:
+    #talksUri:
+    #  eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=543336'
+    #  speakersData: 'https://www.doag.org/api/referenten_apex.php?key=JL-EOPTGB-DR'
   backupUri: apex-2018-backup.raw
   url: 'http://${conference}.dukecon.org/${year}'
   homeUrl: 'http://apex.doag.org/'
@@ -88,11 +88,11 @@
     eventsData: 'http://archive.dukecon.org/data/bigdata2018/events.json'
     speakersData: 'http://archive.dukecon.org/data/bigdata2018/speakers.json'
     additionalData: 'http://archive.dukecon.org/data/bigdata2018/additionaldata.json'
-  archived:
-    talksUri:
-      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=561752'
-      speakersData: 'https://www.doag.org/api/referenten_bigdata.php?key=JL-EOPTGB-DR'
-      additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+    #archived:
+    #talksUri:
+    #  eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=561752'
+    #  speakersData: 'https://www.doag.org/api/referenten_bigdata.php?key=JL-EOPTGB-DR'
+    #  additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: bigdata-2018-backup.raw
   url: 'https://${conference}.dukecon.org/${year}'
   homeUrl: 'https://bigdata.doag.org/'
@@ -130,10 +130,10 @@
   talksUri:
     eventsData: 'http://archive.dukecon.org/data/datenbank2018/events.json'
     speakersData: 'http://archive.dukecon.org/data/datenbank2018/speakers.json'
-  archived:
-    talksUri:
-      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=550377'
-      speakersData: 'https://www.doag.org/api/referenten_datenbank.php?key=JL-EOPTGB-DR'
+    #archived:
+    #talksUri:
+    #  eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=550377'
+    #  speakersData: 'https://www.doag.org/api/referenten_datenbank.php?key=JL-EOPTGB-DR'
   backupUri: db-2018-backup.raw
   url: 'https://programm.doag.org/${conference}/${year}'
   homeUrl: 'http://datenbank.doag.org/'
@@ -172,11 +172,11 @@
     eventsData: 'http://archive.dukecon.org/data/doag2018/events.json'
     speakersData: 'http://archive.dukecon.org/data/doag2018/speakers.json'
     additionalData: 'http://archive.dukecon.org/data/doag2018/additionaldata.json'
-  archived:
-    talksUri:
-      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=554070'
-      speakersData: 'https://www.doag.org/api/referenten.php?key=JL-EOPTGB-DR'
-      additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+    #archived:
+    #talksUri:
+    #  eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=554070'
+    #  speakersData: 'https://www.doag.org/api/referenten.php?key=JL-EOPTGB-DR'
+    #  additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: doag-2018-backup.raw
   url: 'https://programm.doag.org/${conference}/${year}'
   homeUrl: 'http://2018.doag.org/'
@@ -214,10 +214,10 @@
   talksUri:
     eventsData: 'http://archive.dukecon.org/data/exadata2018/events.json'
     speakersData: 'http://archive.dukecon.org/data/exadata2018/speakers.json'
-  archived:
-    talksUri:
-      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=551371'
-      speakersData: 'https://www.doag.org/api/referenten_exadata.php?key=JL-EOPTGB-DR'
+    #archived:
+    #talksUri:
+    #   eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=551371'
+    #  speakersData: 'https://www.doag.org/api/referenten_exadata.php?key=JL-EOPTGB-DR'
   backupUri: exadata-2018-backup.raw
   url: 'https://programm.doag.org/${conference}/${year}'
   homeUrl: 'https://exadatadatenbank.doag.org/'
@@ -256,11 +256,11 @@
     eventsData: 'http://archive.dukecon.org/data/ka2018/events.json'
     speakersData: 'http://archive.dukecon.org/data/ka2018/speakers.json'
     additionalData: 'http://archive.dukecon.org/data/ka2018/additionaldata.json'
-  archived:
-    talksUri:
-      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=554070'
-      speakersData: 'https://www.doag.org/api/referenten_ka.php?key=JL-EOPTGB-DR'
-      additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+    #archived:
+    #talksUri:
+    #  eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=554070'
+    #  speakersData: 'https://www.doag.org/api/referenten_ka.php?key=JL-EOPTGB-DR'
+    #  additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: kua-2018-backup.raw
   url: 'https://${conference}.dukecon.org/${year}'
   homeUrl: 'https://2018.doag.org/'
@@ -298,10 +298,10 @@
   talksUri:
     eventsData: 'http://archive.dukecon.org/data/logistik2018/events.json'
     speakersData: 'http://archive.dukecon.org/data/logistik2018/speakers.json'
-  archived:
-    talksUri:
-      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=555289'
-      speakersData: 'https://www.doag.org/api/referenten_logistik.php?key=JL-EOPTGB-DR'
+    #archived:
+    #talksUri:
+    #  eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=555289'
+    #  speakersData: 'https://www.doag.org/api/referenten_logistik.php?key=JL-EOPTGB-DR'
   backupUri: logistik-2018-backup.raw
   url: 'https://programm.doag.org/${conference}/${year}'
   homeUrl: 'https://logistik.doag.org/'

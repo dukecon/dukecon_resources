@@ -6,9 +6,9 @@
   year: 2016
   talksUri:
     eventsData: 'http://archive.dukecon.org/data/doag2016/events.json'
-  archived:
-    talksUri:
-      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=512089'
+    #  archived:
+    #talksUri:
+    #  eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=512089'
   backupUri: doag-2016-backup.raw
   url: 'https://programm.doag.org/${conference}/${year}'
   homeUrl: 'http://2016.doag.org/'

@@ -8,11 +8,11 @@
     eventsData: 'http://archive.dukecon.org/data/javaland2017/events.json'
     speakersData: 'http://archive.dukecon.org/data/javaland2017/speakers.json'
     additionalData: 'http://archive.dukecon.org/data/javaland2017/additionaldata.json'
-  archived:
-    talksUri:
-      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=522447'
-      speakersData: 'https://www.doag.org/api/schedule/JavaLand/referenten.php/?key=JL-EOPTGB-DR'
-      additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+    #archived:
+    #talksUri:
+    #  eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=522447'
+    #  speakersData: 'https://www.doag.org/api/schedule/JavaLand/referenten.php/?key=JL-EOPTGB-DR'
+    #  additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: javaland-2017-backup.raw
   url: 'http://${conference}.dukecon.org/${year}'
   homeUrl: 'http://www.javaland.eu'

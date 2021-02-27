@@ -8,11 +8,11 @@
     eventsData: 'http://archive.dukecon.org/data/javaland2019/events.json'
     speakersData: 'http://archive.dukecon.org/data/javaland2019/speakers.json'
     additionalData: 'http://archive.dukecon.org/data/javaland2019/additionaldata.json'
-  archived:
-    talksUri:
-      eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=561658'
-      speakersData: 'https://www.doag.org/api/schedule/JavaLand/referenten.php/?key=JL-EOPTGB-DR'
-      additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
+    #archived:
+    #talksUri:
+    #  eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=561658'
+    #  speakersData: 'https://www.doag.org/api/schedule/JavaLand/referenten.php/?key=JL-EOPTGB-DR'
+    #  additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: javaland-2019-backup.raw
   url: 'http://${conference}.dukecon.org/${year}'
   homeUrl: 'http://www.javaland.eu'
