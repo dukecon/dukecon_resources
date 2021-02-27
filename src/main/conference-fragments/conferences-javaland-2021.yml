@@ -6,7 +6,7 @@
   year: 2021
   talksUri:
     eventsData: 'https://www.doag.org/api/schedule/programm/jl.php?key=TestJL&id=602710'
-    speakersData: 'https://www.doag.org/api/schedule/JavaLand/referenten.php/?key=JL-EOPTGB-DR'
+    speakersData: 'https://shop.doag.org/api/user/action.getJavalandReferentInfos/'
     additionalData: 'https://www.doag.org/api/docdukecon.php?key=RT34rfBgjksafr18f8fsksaUqw'
   backupUri: javaland-2021-backup.raw
   url: 'http://${conference}.dukecon.org/${year}'
