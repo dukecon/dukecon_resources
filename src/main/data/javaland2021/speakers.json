@@ -1,0 +1,2086 @@
+{
+  "took": null,
+  "timed_out": null,
+  "_shards": {
+    "total": null,
+    "successful": null,
+    "failed": null
+  },
+  "hits": {
+    "total": null,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "136700",
+          "VORNAME": "Fried",
+          "NACHNAME": "Saacke",
+          "WEBSEITE": "http:\/\/www.doag.org",
+          "FIRMA": "DOAG Dienstleistungen GmbH",
+          "PROFILFOTO": "https:\/\/shop.doag.org\/993df228a4e06b9801a51b8723ceb3b1.\/136700.png?v=0",
+          "PROFILTEXT": "Fried Saacke ist CEO der DOAG und Gesch&#xE4;ftsf&#xFC;hrer der DOAG Dienstleistungen GmbH sowie Vorsitzender des iJUG e.V.1997 hat Fried Saacke die DOAG als Besucher der 10. Deutschen ORACLE-Anwenderkonferenz kennengelernt und ein Jahr sp&#xE4;ter die Regionalgruppe Berlin\/Brandenburg gegr&#xFC;ndet und aufgebaut. Bereits 1999 wurde er  in den Vorstand der DOAG gew&#xE4;hlt und f&#xFC;hrte von da an bis zum Juni 2008 den Verein als Vorsitzender des Vorstands. Seitdem widmet sich Saacke in Vollzeit der DOAG und verantwortet als Gesch&#xE4;ftsf&#xFC;hrer die gesamten operativen Gesch&#xE4;fte des Vereins. Gleichzeitig ist er weiterhin Mitglied des Vorstand der DOAG und &#xFC;bernimmt repr&#xE4;sentative und strategische Aufgaben f&#xFC;r den Verein. \"Mein Ziel ist es, die DOAG bei Oracle und im Markt bekannt zu machen sowie die Anwender zur DOAG zu bringen, von der Mitgliedschaft zu &#xFC;berzeugen und zur aktiven Mitarbeit zu motivieren.\" betont Fried Saacke. \"F&#xFC;r die Zukunft w&#xFC;nsche ich mir f&#xFC;r die DOAG, dass es uns gelingt, unsere anspruchsvollen Ziele umzusetzen. Ich stehe f&#xFC;r einen wirtschaftlich und rechtlich unabh&#xE4;ngigen Verein sowie f&#xFC;r einen konstruktiv-kritischen Dialog mit Oracle. \"Am 1.12.2009 wurde Fried Saacke auf der Gr&#xFC;ndungsversammlung des Interessenverbund der Java User Groups e.V. (iJUG) zu dessen Vorsitzenden gew&#xE4;hlt und nimmt dieses Ehrenamt seitdem wahr. \"In dieser Funktion ist es mein Ziel die gemeinsamen Interessen der Java User Groups im deutschsprachigen Raum zu vertreten.\" Im iJUG e.V. sind zwischenzeitlich &#xFC;ber 30 Java User Gruppen zusammengeschlossen. Der Verein vertritt &#xFC;ber 20.000 Java Entwickler.In seiner Freizeit ist Fried Saacke als Notfallsanit&#xE4;ter des Bayerischen Roten Kreuzes in der Bergwacht und im Sanit&#xE4;tsdienst aktiv.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "",
+          "LINKXING": "https:\/\/www.xing.com\/profile\/Fried_Saacke",
+          "LINKEDIN": "http:\/\/de.linkedin.com\/in\/FriedSaacke"
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "354836",
+          "VORNAME": "Jens",
+          "NACHNAME": "Schauder",
+          "WEBSEITE": null,
+          "FIRMA": "Pivotal Software, Inc.",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "355102",
+          "VORNAME": "Dirk",
+          "NACHNAME": "Weil",
+          "WEBSEITE": null,
+          "FIRMA": "GEDOPLAN GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "356530",
+          "VORNAME": "Bernd",
+          "NACHNAME": "M\u00fcller",
+          "WEBSEITE": null,
+          "FIRMA": "Hochschule Ostfalia",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "357053",
+          "VORNAME": "Simon",
+          "NACHNAME": "Ritter",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "358673",
+          "VORNAME": "Wolfgang",
+          "NACHNAME": "Fahl",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "359390",
+          "VORNAME": "Niko",
+          "NACHNAME": "K\u00f6bler",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "361841",
+          "VORNAME": "Richard",
+          "NACHNAME": "Fichtner",
+          "WEBSEITE": null,
+          "FIRMA": "XDEV Software Corp. Deutschland GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "364065",
+          "VORNAME": "Ralf",
+          "NACHNAME": "M\u00fcller",
+          "WEBSEITE": "https:\/\/docs-as-co.de",
+          "FIRMA": "DB Systel GmbH",
+          "PROFILFOTO": "https:\/\/shop.doag.org\/2f7580f2649d8138703c15d127a3628f.\/364065.png?v=0",
+          "PROFILTEXT": "Ralf D. M&#xFC;ller ist ambitionierter Groovy & Grails-Entwickler und versucht stetig, seine Arbeit weiter zu vereinfachen. Zurzeit besch&#xE4;ftigt er sich insbesondere mit der Verbesserung der ganzheitlichen Dokumentation von Systemen, vor allem mit Hilfe des arc42-Templates und AsciiDoc.Er arbeitet als Software Engineering Advocate bei der DB Systel, der IT-Tochter und Digitalpartner der Deutschen Bahn.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "https:\/\/twitter.com\/RalfDMueller",
+          "LINKXING": "https:\/\/www.xing.com\/profile\/RalfD_Mueller",
+          "LINKEDIN": "https:\/\/www.linkedin.com\/in\/rdmueller"
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "364378",
+          "VORNAME": "Stefan",
+          "NACHNAME": "Schlott",
+          "WEBSEITE": null,
+          "FIRMA": "BeOne Stuttgart GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "364381",
+          "VORNAME": "Ingo",
+          "NACHNAME": "D\u00fcppe",
+          "WEBSEITE": null,
+          "FIRMA": "CROWDCODE GmbH & Co. KG",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "364385",
+          "VORNAME": "Kai",
+          "NACHNAME": "T\u00f6dter",
+          "WEBSEITE": null,
+          "FIRMA": "Siemens AG",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "364422",
+          "VORNAME": "Hendrik",
+          "NACHNAME": "Ebbers",
+          "WEBSEITE": "http:\/\/www.guigarage.com",
+          "FIRMA": "Karakun GmbH",
+          "PROFILFOTO": "https:\/\/shop.doag.org\/1fc3bba59a5f14d18d7e90b708e22b7e.\/364422.png?v=0",
+          "PROFILTEXT": "Hendrik Ebbers (@hendrikEbbers) ist Java Entwickler und Co-Founder der Karakun AG. Hendrik ist JavaOne Rockstar, Java Champion und JCP Expert Group Member. Sein Buch \"Mastering JavaFX 8 Controls\" ist 2014 bei Oracle Press erschienen.",
+          "LINKFACEBOOK": "https:\/\/www.facebook.com\/hendrik.ebbers",
+          "LINKTWITTER": "https:\/\/twitter.com\/hendrikEbbers",
+          "LINKXING": "https:\/\/www.xing.com\/profile\/Hendrik_Ebbers",
+          "LINKEDIN": "https:\/\/www.linkedin.com\/in\/hendrik-ebbers-92778558\/"
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "364537",
+          "VORNAME": "Jochen",
+          "NACHNAME": "Mader",
+          "WEBSEITE": null,
+          "FIRMA": "Instana GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "364571",
+          "VORNAME": "Thorsten",
+          "NACHNAME": "Maier",
+          "WEBSEITE": null,
+          "FIRMA": "Trivadis Germany GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "364707",
+          "VORNAME": "Ivar",
+          "NACHNAME": "Grimstad",
+          "WEBSEITE": "https:\/\/jakarta.ee",
+          "FIRMA": null,
+          "PROFILFOTO": "https:\/\/shop.doag.org\/95ff402cf828b9d3904854bb76761fef.\/364707.png?v=0",
+          "PROFILTEXT": "Ivar Grimstad is the Jakarta EE Developer Advocate at Eclipse Foundation. He is a Java Champion, and JUG Leader based in Sweden.Ivar is the PMC Lead for Eclipse Enterprise for Java (EE4J) and involved in the Jakarta EE Working Group. He is also one of the community representatives in the JCP Executive Committee as well as specification lead for JSR 371 (MVC 1.0).Ivar is also involved in Eclipse MicroProfile, Apache NetBeans and a frequent speaker at International developer conferences.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "https:\/\/twitter.com\/ivar_grimstad",
+          "LINKXING": "",
+          "LINKEDIN": "https:\/\/www.linkedin.com\/in\/ivargrimstad"
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "365280",
+          "VORNAME": "Thomas",
+          "NACHNAME": "Endres",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "365313",
+          "VORNAME": "Andres",
+          "NACHNAME": "Almiray",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "365736",
+          "VORNAME": "Stephan",
+          "NACHNAME": "Kaps",
+          "WEBSEITE": "http:\/\/www.kitenco.de",
+          "FIRMA": null,
+          "PROFILFOTO": "https:\/\/shop.doag.org\/c3b310542b744f9ac451a8a0287874ae.\/365736.jpg?v=0",
+          "PROFILTEXT": "Stephan Kaps leitet die Softwareentwicklung im Bundesamt f&#xFC;r Soziale Sicherung und ist Gr&#xFC;nder der Java User Group Bonn. Als Software-Architekt und Entwickler hat er seit 2002 mit Java zu tun. Weitere Schwerpunkte liegen in der Konzipierung und Optimierung von Software-Entwicklungsprozessen, DevOps & OpenSource Werkzeugen. Dar&#xFC;ber hinaus ist er als Speaker und Autor aktiv.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "",
+          "LINKXING": "",
+          "LINKEDIN": ""
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "366601",
+          "VORNAME": "Thilo",
+          "NACHNAME": "Frotscher",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "367632",
+          "VORNAME": "Gerrit",
+          "NACHNAME": "Meier",
+          "WEBSEITE": "",
+          "FIRMA": null,
+          "PROFILFOTO": "https:\/\/shop.doag.org\/02efedcace0211ac9550aba35d24c369.\/367632.png?v=0",
+          "PROFILTEXT": "Gerrit Meier ist leidenschaftlicher Softwareentwickler und arbeitet als Software Entwickler bei Neo4j. Neue Technologien, Ideen und Ans&#xE4;tze, auch abseits seines technologischen Schwerpunktes, motivieren ihn immer wieder zum Ausprobieren und Verstehen. Da er dieses als eine der wichtigsten Kompetenzen in der Softwareentwicklungswelt sieht, bem&#xFC;ht er sich sowohl beruflich als auch privat, dieses Wissen und den Spa&#xDF; am Einfach-mal-machen zu vermitteln und zug&#xE4;nglich zu machen. Dies ist auch einer der Gr&#xFC;nde, aus denen Gerrit aktiv die JUG Ostfalen unterst&#xFC;tzt.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "https:\/\/twitter.com\/meistermeier",
+          "LINKXING": "https:\/\/www.xing.com\/profile\/Gerrit_Meier",
+          "LINKEDIN": "https:\/\/www.linkedin.com\/in\/gerrit-meier\/"
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "368392",
+          "VORNAME": "Christian",
+          "NACHNAME": "Kaltepoth",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "368442",
+          "VORNAME": "Alexander",
+          "NACHNAME": "Schwartz",
+          "WEBSEITE": "https:\/\/www.ahus1.de",
+          "FIRMA": "msg systems ag",
+          "PROFILFOTO": "https:\/\/shop.doag.org\/f4037130ee3eb07978304ed8359d263c.\/368442.jpg?v=0",
+          "PROFILTEXT": "Alexander Schwartz arbeitet als Principal IT Consultant bei msg. Im Laufe der Zeit arbeitete er mit verschiedensten Server- und Web-Technologien. Er sch&#xE4;tzt produktive Arbeitsumgebungen, agile Projekte und automatisierte Tests. Auf Konferenzen und bei User Groups spricht er &#xFC;ber seine Erfahrungen.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "https:\/\/twitter.com\/ahus1de",
+          "LINKXING": "https:\/\/www.xing.com\/profile\/Alexander_Schwartz",
+          "LINKEDIN": "https:\/\/www.linkedin.com\/in\/alexander-schwartz-86b84520\/"
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "368565",
+          "VORNAME": "Eberhard",
+          "NACHNAME": "Wolff",
+          "WEBSEITE": null,
+          "FIRMA": "innoQ Deutschland GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "368607",
+          "VORNAME": "Geoffrey",
+          "NACHNAME": "De Smet",
+          "WEBSEITE": null,
+          "FIRMA": "Red Hat, Inc.",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "369502",
+          "VORNAME": "Anna",
+          "NACHNAME": "Maier",
+          "WEBSEITE": null,
+          "FIRMA": "TOPdesk Deutschland GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "369887",
+          "VORNAME": "Thorben",
+          "NACHNAME": "Janssen",
+          "WEBSEITE": "https:\/\/www.thoughts-on-java.org",
+          "FIRMA": null,
+          "PROFILFOTO": "https:\/\/shop.doag.org\/790007c64128f4c0003a24ac08ac0ebb.\/369887.jpg?v=0",
+          "PROFILTEXT": "Thorben Janssen l&#xF6;st als freiberuflicher Consultant und Trainer Persistenzprobleme mit JPA und Hibernate. Er ist Autor des Amazon Bestsellers Hibernate Tips - More than 70 solutions to common Hibernate problems und internationaler Redner mit mehr als 15 Jahren Erfahrung in der Entwicklung von Anwendungen auf Basis von JPA und Hibernate.Auf seinem Blog www.thoughts-on-java.org schreibt er mehrmals w&#xF6;chentlich &#xFC;ber JPA, Hibernate und andere Persistenztechnologien.",
+          "LINKFACEBOOK": "https:\/\/www.facebook.com\/thoughtsonjava",
+          "LINKTWITTER": "https:\/\/twitter.com\/thjanssen123",
+          "LINKXING": "https:\/\/www.xing.com\/profile\/Thorben_Janssen",
+          "LINKEDIN": "https:\/\/www.linkedin.com\/in\/thorbenjanssen\/"
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "370059",
+          "VORNAME": "Gregor",
+          "NACHNAME": "Tudan",
+          "WEBSEITE": null,
+          "FIRMA": "Cofinpro AG",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "370942",
+          "VORNAME": "Henning",
+          "NACHNAME": "Schwentner",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "371317",
+          "VORNAME": "Wolfgang",
+          "NACHNAME": "Schell",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "371796",
+          "VORNAME": "Stephan",
+          "NACHNAME": "Classen",
+          "WEBSEITE": null,
+          "FIRMA": "Canoo Engineering AG",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "371819",
+          "VORNAME": "Johannes",
+          "NACHNAME": "Dienst",
+          "WEBSEITE": null,
+          "FIRMA": "DB Systel GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "374853",
+          "VORNAME": "Kevin",
+          "NACHNAME": "Wittek",
+          "WEBSEITE": "https:\/\/groovy-coder.com\/",
+          "FIRMA": null,
+          "PROFILFOTO": "https:\/\/shop.doag.org\/b2fbc012a764829b59df20df9ddec3fa.\/374853.jpg?v=0",
+          "PROFILTEXT": "Testcontainers co-maintainer and Testcontainers-Spock author, in love with FLOSS. Received the Oracle Groundbreaker Ambassador award for his contributions to the Open Source community. Software Craftsman and testing fan. Plays the electric guitar and is a musician in his second life. Found his own company during his university years, developing mobile apps and client-server applications, which introduced him to Grails and the Groovy ecosystem. Fell in love with TDD because of Spock. After many years working in the industry as a software engineer, Kevin is now doing his PhD at the Institute for Internet Security and is leading a research team in the field of blockchain technology.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "https:\/\/twitter.com\/Kiview",
+          "LINKXING": "",
+          "LINKEDIN": ""
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "374893",
+          "VORNAME": "Mario-Leander",
+          "NACHNAME": "Reimer",
+          "WEBSEITE": null,
+          "FIRMA": "QAware GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "374910",
+          "VORNAME": "Nicolai",
+          "NACHNAME": "Parlog",
+          "WEBSEITE": "",
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "",
+          "LINKXING": "",
+          "LINKEDIN": ""
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "374919",
+          "VORNAME": "Matt",
+          "NACHNAME": "Raible",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "374933",
+          "VORNAME": "Ondrej",
+          "NACHNAME": "Mih\u00e1lyi",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "374971",
+          "VORNAME": "Michal",
+          "NACHNAME": "Harakal",
+          "WEBSEITE": "https:\/\/harakal.de\/",
+          "FIRMA": null,
+          "PROFILFOTO": "https:\/\/shop.doag.org\/8b613ab2fff0f32ce74dbc8d378f5750.\/374971.jpg?v=0",
+          "PROFILTEXT": "Michal Harakal arbeitet seit 2010 als Android Entwickler bei der Deutschen Telekom AG. In die spannende Welt der mobilen Ger&#xC3;&#xA4;ten ist er nach einer langj&#xC3;&#xA4;hrigen Berufserfahrung als Entwickler von Mess- und Datenauswertung Systemen und sp&#xC3;&#xA4;ter auch Steuerungen f&#xC3;&#xBC;r industriellen Maschinen gewechselt. Sein Werkzeugkasten, in dem Java und Kotlin einen besonderen Platz haben, ist vielseitig gef&#xC3;&#xBC;llt. Bei Android ist er von der ersten Stunde dabei. Michal teilt gerne seine Erfahrung und ist im Open Source Projekten aktiv.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "",
+          "LINKXING": "",
+          "LINKEDIN": ""
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "375163",
+          "VORNAME": "Anton",
+          "NACHNAME": "Epple",
+          "WEBSEITE": null,
+          "FIRMA": "Dukehoff GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "376291",
+          "VORNAME": "Markus",
+          "NACHNAME": "Harrer",
+          "WEBSEITE": "https:\/\/www.markusharrer.de",
+          "FIRMA": null,
+          "PROFILFOTO": "https:\/\/shop.doag.org\/33d19514e4b2bc63468701ee913ef94c.\/376291.jpg?v=0",
+          "PROFILTEXT": "Markus Harrer arbeitet seit &#xFC;ber elf Jahren in der Softwareentwicklung innerhalb konservativer Branchen. Seine Spezialgebiete sind Software Analytics, Softwaresanierung und Clean Code. Als Berater bei INNOQ zeigt er, wie mit Hilfe von datenzentrierten, nachvollziehbaren Analysen Softwareprodukte nachhaltig und strategisch sinnvoll verbessert werden k&#xF6;nnen.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "https:\/\/twitter.com\/feststelltaste",
+          "LINKXING": "https:\/\/www.xing.com\/profile\/Markus_Harrer6",
+          "LINKEDIN": "https:\/\/www.linkedin.com\/in\/markus-harrer\/"
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "378544",
+          "VORNAME": "Joep",
+          "NACHNAME": "Weijers",
+          "WEBSEITE": null,
+          "FIRMA": "TOPdesk Deutschland GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "378752",
+          "VORNAME": "Christian",
+          "NACHNAME": "Schneider",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "378753",
+          "VORNAME": "Nils",
+          "NACHNAME": "Hartmann",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "378795",
+          "VORNAME": "Tim",
+          "NACHNAME": "Schade",
+          "WEBSEITE": null,
+          "FIRMA": "GFT Technologies SE",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "378841",
+          "VORNAME": "Katherine",
+          "NACHNAME": "Stanley",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "378902",
+          "VORNAME": "Simon",
+          "NACHNAME": "Skoczylas",
+          "WEBSEITE": null,
+          "FIRMA": "Karakun GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "379082",
+          "VORNAME": "Stephan",
+          "NACHNAME": "Pirnbaum",
+          "WEBSEITE": "http:\/\/www.buschmais.de\/",
+          "FIRMA": "buschmais GbR",
+          "PROFILFOTO": "https:\/\/shop.doag.org\/7fc9a827f7fe3dac3ec3f16aa9d409f7.\/379082.jpg?v=0",
+          "PROFILTEXT": "Stephan Pirnbaum ist Consultant bei der BUSCHMAIS GbR. Er besch\u00e4ftigt sich leidenschaftlich gern mit der Analyse und strukturellen Verbesserung von Softwaresystemen im Java-Umfeld. In Vortr\u00e4gen und Workshops pr\u00e4sentiert er seine gesammelten Erfahrungen und genutzten Methodiken.",
+          "LINKFACEBOOK": "https:\/\/www.facebook.com\/buschmais",
+          "LINKTWITTER": "https:\/\/twitter.com\/spirnbaum",
+          "LINKXING": "https:\/\/www.xing.com\/profile\/Stephan_Pirnbaum",
+          "LINKEDIN": "https:\/\/www.linkedin.com\/in\/stephan-pirnbaum\/"
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "380030",
+          "VORNAME": "Birgit",
+          "NACHNAME": "Kratz",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "380385",
+          "VORNAME": "Holger",
+          "NACHNAME": "F\u00e4hnrich",
+          "WEBSEITE": null,
+          "FIRMA": "Finanz-DATA GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "381737",
+          "VORNAME": "Tim",
+          "NACHNAME": "Z\u00f6ller",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "382169",
+          "VORNAME": "Maarten",
+          "NACHNAME": "Mulders",
+          "WEBSEITE": "https:\/\/maarten.mulders.it",
+          "FIRMA": null,
+          "PROFILFOTO": "https:\/\/shop.doag.org\/a52affe1d34bf835b2778d6cbe942d21.\/maarten-mulders-kleur-0.25.jpg?v=2",
+          "PROFILTEXT": "Passionate architect, senior developer and trainer at Info Support. Also Oracle Groundbreaker Ambassador. I'm eager about \"building the right thing\" and \"building the thing right\". I focus on lean and elegant solutions, and I love to share new ideas and knowledge. Outside work, I appreciate crafting and eating good food, photography, and music, in no particular order.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "https:\/\/twitter.com\/mthmulders",
+          "LINKXING": "",
+          "LINKEDIN": "https:\/\/www.linkedin.com\/in\/mthmulders\/"
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "382173",
+          "VORNAME": "Jochen",
+          "NACHNAME": "Christ",
+          "WEBSEITE": null,
+          "FIRMA": "innoQ Deutschland GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "382191",
+          "VORNAME": "Jaap",
+          "NACHNAME": "Coomans",
+          "WEBSEITE": null,
+          "FIRMA": "REWE Digital GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "382192",
+          "VORNAME": "Sven",
+          "NACHNAME": "Peters",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "382350",
+          "VORNAME": "Dirk",
+          "NACHNAME": "Hermanns",
+          "WEBSEITE": "https:\/\/www.lvm.de",
+          "FIRMA": "REWE Digital GmbH",
+          "PROFILFOTO": "https:\/\/shop.doag.org\/aba422eb0756222d826e81d89721bfb6.\/382350.jpg?v=0",
+          "PROFILTEXT": "Dirk Hermanns ist Software-Architekt bei der LVM Versicherung und besch&#xE4;ftigt sich mit dem Design von Anwendungen und Systemen und wie sich Eventsourcing in der Praxis anwenden l&#xE4;sst.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "https:\/\/twitter.com\/h3rmanns",
+          "LINKXING": "https:\/\/www.xing.com\/profile\/Dirk_Hermanns2\/cv",
+          "LINKEDIN": ""
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "382429",
+          "VORNAME": "Corinna",
+          "NACHNAME": "Wiedenmann",
+          "WEBSEITE": "",
+          "FIRMA": "Freshfields Bruckhaus Deringer",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "",
+          "LINKXING": "",
+          "LINKEDIN": ""
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "382436",
+          "VORNAME": "Johannes",
+          "NACHNAME": "Schnatterer",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "382440",
+          "VORNAME": "Rudy",
+          "NACHNAME": "De Busscher",
+          "WEBSEITE": null,
+          "FIRMA": "REWE Digital GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "382455",
+          "VORNAME": "Anika",
+          "NACHNAME": "Zohren",
+          "WEBSEITE": "",
+          "FIRMA": null,
+          "PROFILFOTO": "https:\/\/shop.doag.org\/4738d255d3055aa642440e0a7feba8ef.\/382455.jpg?v=0",
+          "PROFILTEXT": "Anika Zohren - Software Entwicklerin seit 2002 - Schwerpunkte sind Java, SAP Commerce (aka hybris) und statische Quelltext Analyse",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "",
+          "LINKXING": "",
+          "LINKEDIN": ""
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "382456",
+          "VORNAME": "Arne",
+          "NACHNAME": "Limburg",
+          "WEBSEITE": null,
+          "FIRMA": "OPEN KNOWLEDGE  GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "382491",
+          "VORNAME": "Georg",
+          "NACHNAME": "Berky",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "382495",
+          "VORNAME": "Jen",
+          "NACHNAME": "Tong",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "382598",
+          "VORNAME": "Martin",
+          "NACHNAME": "Lippert",
+          "WEBSEITE": null,
+          "FIRMA": "REWE Digital GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "383362",
+          "VORNAME": "Tobias",
+          "NACHNAME": "Schr\u00f6der",
+          "WEBSEITE": "",
+          "FIRMA": "METRO-nom GmbH",
+          "PROFILFOTO": "https:\/\/shop.doag.org\/f20fc8d5516f7cdc8fc68e47510832f9.\/383362.jpg?v=0",
+          "PROFILTEXT": "Tobias has more than five years of experience as professional full stack developer. After finishing his academic career with a PhD in dialog-based online argumentation, he decided to join METRONOM in the mid of 2018. Since then, he and his team are continuously improving METRO's customer order fulfillment processes. They provide their colleagues in the stores with first-class digital tools accelerating the management of thousands of articles over several freshness zones. Tobias's daily obsession: minimize and simplify the communication about customers' order information using online services.In his spare time he loves to write Clojure, and if you don't find him coding, he is standing in front of his barbecue or lifting some dumbbells.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "https:\/\/twitter.com\/TbsSchroeder",
+          "LINKXING": "https:\/\/www.xing.com\/profile\/Tobias_Schroeder121",
+          "LINKEDIN": "https:\/\/www.linkedin.com\/in\/dr-tobias-schr%C3%B6der-8882a382\/"
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "384320",
+          "VORNAME": "Christian",
+          "NACHNAME": "Meter",
+          "WEBSEITE": "https:\/\/github.com\/n2o",
+          "FIRMA": null,
+          "PROFILFOTO": "https:\/\/shop.doag.org\/ead8a60c57e225320fa5f4fa1c6aee4c.\/384320.jpg?v=0",
+          "PROFILTEXT": "Christian arbeitet als wissenschaftlicher Angestellter an der Heinrich-Heine-Universit&#xE4;t in D&#xFC;sseldorf. In Forschung und aus Passion befasst er sich mit vielen Themen der Softwareentwicklung, startet eine Menge eigener Projekte und ist stets an Verbesserungen von Softwareentwicklungsprozessen interessiert. Er organisiert das Clojure Meetup D&#xFC;sseldorf, Lambda D&#xFC;sseldorf und ist Co-Organisator der rheinjug.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "https:\/\/twitter.com\/cmeter_",
+          "LINKXING": "",
+          "LINKEDIN": ""
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386099",
+          "VORNAME": "Peter",
+          "NACHNAME": "Palaga",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386186",
+          "VORNAME": "Marwan",
+          "NACHNAME": "Abu-Khalil",
+          "WEBSEITE": "",
+          "FIRMA": null,
+          "PROFILFOTO": "https:\/\/shop.doag.org\/e3af8e3a2ea932650e45bbd2f9b3a349.\/386186.jpg?v=0",
+          "PROFILTEXT": "Marwan Abu-Khalil ist Software Architekt f&#xFC;r parallele Systeme im Siemens Forschungsbereich. Er h&#xE4;lt regelm&#xE4;&#xDF;ig Konferenzvortr&#xE4;ge und Seminare &#xFC;ber Parallelisierung und ist Trainer f&#xFC;r zertifizierte Softwarearchitekten der Siemens AG.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "",
+          "LINKXING": "",
+          "LINKEDIN": ""
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386229",
+          "VORNAME": "Michel",
+          "NACHNAME": "Schudel",
+          "WEBSEITE": null,
+          "FIRMA": "REWE Digital GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386266",
+          "VORNAME": "Ren\u00e9",
+          "NACHNAME": "Heck",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386287",
+          "VORNAME": "Georg",
+          "NACHNAME": "Haupt",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386301",
+          "VORNAME": "Vaughn",
+          "NACHNAME": "Vernon",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386308",
+          "VORNAME": "Elisabeth",
+          "NACHNAME": "Schulz",
+          "WEBSEITE": null,
+          "FIRMA": "codecentric AG",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386312",
+          "VORNAME": "Paco",
+          "NACHNAME": "van Beckhoven",
+          "WEBSEITE": null,
+          "FIRMA": "REWE Digital GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386339",
+          "VORNAME": "Thodoris",
+          "NACHNAME": "Bais",
+          "WEBSEITE": null,
+          "FIRMA": "REWE Digital GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386357",
+          "VORNAME": "Christian",
+          "NACHNAME": "Seifert",
+          "WEBSEITE": "",
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "",
+          "LINKXING": "",
+          "LINKEDIN": ""
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386360",
+          "VORNAME": "Stefan",
+          "NACHNAME": "L\u00f3pez Romero",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386373",
+          "VORNAME": "Brian",
+          "NACHNAME": "Vermeer",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386376",
+          "VORNAME": "Neslihan",
+          "NACHNAME": "Edes",
+          "WEBSEITE": "",
+          "FIRMA": "REWE Digital GmbH",
+          "PROFILFOTO": "https:\/\/shop.doag.org\/9af3ccc8be975bae55dd0146d9a7fc62.\/386376.jpg?v=0",
+          "PROFILTEXT": "PhD student at the biopsychology department of the Ruhr University Bochum. Focusing on pigeons? consciousness and self-recognition. While doing behavioural experiments, she also explores challenging analyzing methods and the field of data science. That is also one of the reasons why she is interested in open-source technology (especially Python) which helps her to not get lost in the thorny paths and thick forests of scientific computing that are ruled by gruesome beasts like MATLAB.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "",
+          "LINKXING": "",
+          "LINKEDIN": ""
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386382",
+          "VORNAME": "Gerrit",
+          "NACHNAME": "Grunwald",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386390",
+          "VORNAME": "Noopur",
+          "NACHNAME": "Gupta",
+          "WEBSEITE": "",
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "https:\/\/twitter.com\/noopur2507",
+          "LINKXING": "",
+          "LINKEDIN": "https:\/\/www.linkedin.com\/in\/noopur2507\/"
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386408",
+          "VORNAME": "Bernd",
+          "NACHNAME": "Ruecker",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386412",
+          "VORNAME": "Kai",
+          "NACHNAME": "Gellien",
+          "WEBSEITE": null,
+          "FIRMA": "GFT Technologies SE",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386416",
+          "VORNAME": "Werner",
+          "NACHNAME": "Keil",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386430",
+          "VORNAME": "Emily",
+          "NACHNAME": "Jiang",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386503",
+          "VORNAME": "Carsten",
+          "NACHNAME": "Hoffmann",
+          "WEBSEITE": "",
+          "FIRMA": "DB Systel GmbH",
+          "PROFILFOTO": "https:\/\/shop.doag.org\/9eb5420b96e1607ce5530fb01bbced8e.\/386503.jpg?v=0",
+          "PROFILTEXT": "Seitdem Carsten Hoffmann 2010 als Java Entwickler in seine professionelle Karriere gestartet ist, hat er sich unentwegt mit dem Thema Softwarequalit&#xE4;t besch&#xE4;ftigt. Er ist dabei zu dem Schluss gekommen, dass Teams vor allem dann hohe Qualit&#xE4;t liefern k&#xF6;nnen, wenn eine gute &#x84;Developer Experience&#x93; in den zur Verf&#xFC;gung stehenden Tools dies einfach macht. Seit 2017 ist Carsten als \"programmierender Software Architekt\" mit der DB Systel auf die Reise in eine DevOps-Transformation gestartet, und arbeitet dort in einem Plattformteam daran, die Developer Experience f&#xFC;r andere DevOps-Teams zu verbessern.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "https:\/\/twitter.com\/morl99",
+          "LINKXING": "https:\/\/www.xing.com\/profile\/Carsten_Hoffmann45",
+          "LINKEDIN": ""
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386596",
+          "VORNAME": "Christian",
+          "NACHNAME": "Schmidt",
+          "WEBSEITE": "",
+          "FIRMA": "tarent solutions GmbH",
+          "PROFILFOTO": "https:\/\/shop.doag.org\/d245dbe21f1c71f1f4ecbcf83f29bca0.\/386596.png?v=0",
+          "PROFILTEXT": "Christian Schmidt, 34 Jahre aus Siegburg, ist nun seit 2010 bei der tarent Solutions GmbH in Bonn t&#xE4;tig. Haupts&#xE4;chlich auf der JVM arbeitet er mit Java, Kotlin und Scala und entwickelt moderne Microservices.Gerade die innere Architektur der Services liegt dabei mit Domain Driven Design, CQRS oder hexagonaler Architektur im Fokus.Au&#xDF;erhalb des Codes arbeitet er bereits seit einigen Jahren in modernen Microservicearchitekturen und k&#xFC;mmert sich um die Integration in CI\/CD Systeme.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "https:\/\/twitter.com\/chrisIwanzik",
+          "LINKXING": "https:\/\/www.xing.com\/profile\/Christian_Schmidt1605",
+          "LINKEDIN": ""
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386792",
+          "VORNAME": "Maik",
+          "NACHNAME": "Figura",
+          "WEBSEITE": null,
+          "FIRMA": "REWE Digital GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386820",
+          "VORNAME": "Peter",
+          "NACHNAME": "Nagy",
+          "WEBSEITE": null,
+          "FIRMA": "REWE Digital GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "386821",
+          "VORNAME": "Jonas",
+          "NACHNAME": "Mayer",
+          "WEBSEITE": null,
+          "FIRMA": "TNG Technology Consulting GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "387954",
+          "VORNAME": "Thorben",
+          "NACHNAME": "Kuck",
+          "WEBSEITE": null,
+          "FIRMA": "OPEN KNOWLEDGE  GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "388985",
+          "VORNAME": "Sandra",
+          "NACHNAME": "Gerberding",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389253",
+          "VORNAME": "Stephanie",
+          "NACHNAME": "Wang",
+          "WEBSEITE": "http:\/\/stephaniewang526.github.io\/ ",
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "Stephanie is a Java engineer in Developer Relations at Google Cloud Platform. Stephanie primarily focuses on building and maintaining the BigQuery Java Client Libraries which help developers interact with BigQuery APIs more easily. She also works on managing Java dependencies across the 70+ Google Cloud Java Client Libraries to ensure that they work with each other and troubleshoot any dependency problems. Prior to Google, Stephanie worked as a software engineer at Morgan Stanley and led a team of 10 to build sales and trading applications. Outside work, Stephanie is passionate about animals -- she has an insta-famous dog, @sasha_the_shibapoo and a new semi-aquatic @bombshell_the_turtle.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "https:\/\/twitter.com\/StephWangBuilds",
+          "LINKXING": "",
+          "LINKEDIN": "https:\/\/www.linkedin.com\/in\/stephaniewang526\/ "
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389305",
+          "VORNAME": "Sandra",
+          "NACHNAME": "Parsick",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389310",
+          "VORNAME": "Nils",
+          "NACHNAME": "Hyoma",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389334",
+          "VORNAME": "Ko",
+          "NACHNAME": "Turk",
+          "WEBSEITE": "",
+          "FIRMA": null,
+          "PROFILFOTO": "https:\/\/shop.doag.org\/263ec1619e1a3ae6c01b12a61ed236ce.\/ko.turk.png?v=2",
+          "PROFILTEXT": "Hi! My name is Ko Turk (@KoTurk77), working as a Senior Java Developer for Blue4IT and currently on an assignment at Rabobank. Besides working on creating bad ass software, I\u2019d like to speak at conferences such as JavaZone Oslo, DevNexus Atlanta and of course our own J-Fall. You can find me regularly at the UtrechtJUG.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "https:\/\/twitter.com\/KoTurk77",
+          "LINKXING": "",
+          "LINKEDIN": "https:\/\/www.linkedin.com\/in\/ko-turk-b271b929\/"
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389335",
+          "VORNAME": "Andreas",
+          "NACHNAME": "Brunnert",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389351",
+          "VORNAME": "Ranjan",
+          "NACHNAME": "Mohan",
+          "WEBSEITE": null,
+          "FIRMA": "REWE Digital GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389354",
+          "VORNAME": "Katrin",
+          "NACHNAME": "Rabow",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389361",
+          "VORNAME": "Lisa Maria",
+          "NACHNAME": "Moritz",
+          "WEBSEITE": null,
+          "FIRMA": "innoQ Deutschland GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389364",
+          "VORNAME": "Lukas",
+          "NACHNAME": "Pradel",
+          "WEBSEITE": "",
+          "FIRMA": null,
+          "PROFILFOTO": "https:\/\/shop.doag.org\/aeb6d99ba55c4fa1a7657ecb2aeeb4a4.\/389364.jpg?v=0",
+          "PROFILTEXT": "Lukas Pradel arbeitet als Senior Consultant bei der Conciso GmbH. Die Zeit, die er nicht mit Softwareentwicklung verbringt, nutzt er am liebsten zum Motorradfahren.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "https:\/\/twitter.com\/lukaspradel",
+          "LINKXING": "https:\/\/www.xing.com\/profile\/Lukas_Pradel\/",
+          "LINKEDIN": "https:\/\/www.linkedin.com\/in\/lukaspradel"
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389367",
+          "VORNAME": "Bj\u00f6rn",
+          "NACHNAME": "Stahl",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389368",
+          "VORNAME": "Johannes",
+          "NACHNAME": "Unterstein",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389373",
+          "VORNAME": "julien",
+          "NACHNAME": "lengrand-lambert",
+          "WEBSEITE": "https:\/\/lengrand.fr",
+          "FIRMA": "REWE Digital GmbH",
+          "PROFILFOTO": "https:\/\/shop.doag.org\/57033939e34635b9bc005ec02b81e853.\/389373.jpg?v=0",
+          "PROFILTEXT": "Developer and Community builder @ing. I create 'islands' were engineers are the heroes.I am a software developer working for 10 years in the industry. I worked in multiple fields, from embedded electronics and image processing, to banking. I mostly work on JVM languages like Java and Kotlin, and all their associated ecosystem.",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "https:\/\/twitter.com\/jlengrand",
+          "LINKXING": "",
+          "LINKEDIN": "https:\/\/www.linkedin.com\/in\/julienlengrand\/"
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389376",
+          "VORNAME": "Khaled",
+          "NACHNAME": "Yakdan",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389379",
+          "VORNAME": "Sandra",
+          "NACHNAME": "Ahlgrimm",
+          "WEBSEITE": null,
+          "FIRMA": "REWE Digital GmbH",
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389383",
+          "VORNAME": "Nora",
+          "NACHNAME": "Sch\u00f6ner",
+          "WEBSEITE": "",
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "",
+          "LINKXING": "",
+          "LINKEDIN": ""
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389387",
+          "VORNAME": "Karsten",
+          "NACHNAME": "Silz",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389391",
+          "VORNAME": "Alexander",
+          "NACHNAME": "Schneider",
+          "WEBSEITE": null,
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": null,
+          "LINKTWITTER": null,
+          "LINKXING": null,
+          "LINKEDIN": null
+        }
+      },
+      {
+        "_index": null,
+        "_type": null,
+        "_id": null,
+        "_score": null,
+        "_source": {
+          "ID_PERSON": "389659",
+          "VORNAME": "Silvia Siu",
+          "NACHNAME": "Luo",
+          "WEBSEITE": "",
+          "FIRMA": null,
+          "PROFILFOTO": null,
+          "PROFILTEXT": "",
+          "LINKFACEBOOK": "",
+          "LINKTWITTER": "",
+          "LINKXING": "",
+          "LINKEDIN": ""
+        }
+      }
+    ]
+  }
+}
