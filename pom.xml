@@ -70,7 +70,7 @@
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
         <merge-maven-plugin.version>0.0.3</merge-maven-plugin.version>
         <slf4j-simple.version>1.7.25</slf4j-simple.version>
-        <snakeyaml.version>1.24</snakeyaml.version>
+        <snakeyaml.version>1.32</snakeyaml.version>
 
         <!-- Check automatic versions from time to time! -->
     </properties>
